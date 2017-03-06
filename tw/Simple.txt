@@ -117,12 +117,30 @@ She agrees, and together we begin piling the books up into neat piles.
 What should I do today?
 <<return>>
 
+
+
+
+:: choose_morning
+* [[Morning - Attend Class|opt_class]]
+* [[Morning - Cut Class|opt_cut]]
+
+
+:: opt_class
+<<set morning_act = act_class >>
 <<return>>
+
 
 
 :: Start
 Generic Dating Sim
 Inspired by Ren'py's Dating Sim Engine
+
+<<set act_class = 1 >>
+<<set act_cut = 2 >>
+<<set act_study = 3 >>
+<<set act_hang = 4 >>
+<<set act_exercise = 5 >>
+<<set act_play = 6 >>
 
 * [[Start Game|Start Game]]
 
@@ -215,14 +233,6 @@ I don't think anyone pays much attention to it, however.
 <<return>>
 
 
-:: day
-<<set day = day + 1 >>
-It's day <<print day >>d.
-<<set morning_act = None >>
-<<set afternoon_act = None >>
-<<set evening_act = None >>
-
-
 :: borrow_pen
 I head to the library, to get some studying done.
 
@@ -253,6 +263,36 @@ She says, and she goes back to studying.
 <<return>>
 
 
+:: opt_cut
+<<set morning_act = act_cut >>
+<<return>>
+
+
+
+:: Start Game
+<<set day = 0 >>
+
+In case you're just tuning in, here's the story of my life to date.
+<<pause>>
+
+I'm a guy in the second year of high school.
+<<pause>>
+
+I'm not good at sports or school or even something as simple as remembering peoples names.
+<<pause>>
+
+In short, I am your usual random loser guy.
+<<pause>>
+
+And this is my sto...
+<<pause>>
+
+<<set strength = 10 >>
+<<set inteligence = 10 >>
+
+* [[Continue|day]]
+
+
 :: cantcatchme
 I'm out running again, when the sporty girl catches up to me.
 Sporty Girl: Still at it?
@@ -273,27 +313,6 @@ I decide to go out for a run through the town, to keep myself in shape.
 <<return>>
 
 
-:: Start Game
-<<set day = 0 >>
-
-In case you're just tuning in, here's the story of my life to date.
-<<pause>>
-
-I'm a guy in the second year of high school.
-<<pause>>
-
-I'm not good at sports or school or even something as simple as remembering peoples names.
-<<pause>>
-
-In short, I am your usual random loser guy.
-<<pause>>
-
-And this is my story...
-<<pause>>
-
-[[day|day]]
-
-
 :: play
 I pop a DVD into my video game console, and spend the evening rolling small cities up into balls.
 	 
@@ -308,6 +327,23 @@ Evening
 <<set period = "evening" >>
 <<set act = evening_act >>
 <<call events_run_period>>
+
+
+:: choose_afternoon
+* [[Afternoon - Study|opt_study]]
+* [[Afternoon - Hang Out|opt_hang]]
+
+
+:: opt_hang
+<<set afternoon_act = act_hang >>
+<<return>>
+
+
+
+:: opt_study
+<<set afternoon_act = act_study >>
+<<return>>
+
 
 
 :: sg_confess
@@ -405,6 +441,50 @@ I cut class, and spend the morning playing computer games.
 <<return>>
 
 
+:: day
+<<set day = day + 1 >>
+
+It's day&nbsp;<<print day >>.
+Strength: <<print strength >>.
+Inteligence: <<print inteligence >>.
+<<pause>>
+
+<<set morning_act = 0 >>
+<<set afternoon_act = 0 >>
+<<set evening_act = 0 >>
+
+What should I do today?
+<<pause>>
+
+<<call choose_morning>>
+<<call choose_afternoon>>
+<<call choose_evening>>
+
+<<call morning>>
+<<call afternoon>>
+<<call evening>>
+
+*[[Continue|night]]
+
+
+:: morning
+Morning
+<<pause>>
+<<set act = morning_act >>
+
+
+
+:: choose_evening
+* [[Evening - Exercise|opt_exercise]]
+* [[Evening - Play Games|opt_play]]
+
+
+:: opt_exercise
+<<set afternoon_act = act_exercise >>
+<<return>>
+
+
+
 :: class
 I make it to class just in time, and proceed to listen to the teacher droning on about a wide range of topics, none of which are remotely interesting.
 
@@ -486,6 +566,23 @@ I head on down to the library, and start reading about the topics I should have 
 <<return>>
 
 
+:: night
+Night
+<<pause>>
+
+It's getting late, so I decide to go to sleep.
+
+<<call events_end_day>>
+
+[[day|day]]
+
+
+:: opt_play
+<<set afternoon_act = act_play >>
+<<return>>
+
+
+
 :: together
 I start running, and meet up with the sporty girl as she passes the street in front of my house.
 
@@ -495,14 +592,6 @@ Still, I can keep up with her for the rest of the run. And that's not bad.
 <<set strength = strength + 10 >>
 
 <<return>>
-
-
-:: morning
-Morning
-<<pause>>
-<<set period = "morning" >>
-<<set act = morning_act >>
-<<call events_run_period>>
 
 
 :: both_confess
@@ -572,17 +661,6 @@ Afternoon
 <<set period = "afternoon" >>
 <<set act = afternoon_act >>
 <<call events_run_period>>
-
-
-:: night
-Night
-<<pause>>
-
-It's getting late, so I decide to go to sleep.
-
-<<call events_end_day>>
-
-[[day|day]]
 
 
 :: dontsee
