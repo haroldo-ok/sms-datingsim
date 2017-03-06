@@ -189,50 +189,6 @@ I decide not to disturb her, and instead start reading my own book.
 <<return>>
 
 
-:: introduction
-I run to school, and make it to my seat just as the bell signalling the start of class rings.
-Teacher: Before we start, I have an announcement to make.
-Teacher: We will have two new students joining us. Girls, come on in.
-
-Two girls walk in, and stand in front of the class.
-
-They're twins.
-
-Identical twins.
-
-Identical black hair, and the same pretty face.
-
-Despite that, it's still fairly easy to tell them apart.
-
-The one on the left is wearing glasses.
-
-Not too thick, but enough to let me know she probably reads alot of books.
-
-If I look a little closely, I can find another difference.
-
-The one on the right probably exercises a bit more.
-
-I can tell by the muscle tone in her legs.
-
-I realize that I'm staring at her legs, and quickly look up.
-
-Suddenly, I realize that she's been talking for all this town.
-Sporty Girl: ... to this town. And we hope to be friends with all of you.
-Sporty Girl: Well, that's about it. Sis, do you have anything to say?
-
-The girl with glasses pauses for a second, and then quickly says:
-Glasses Girl: It's good to meet you all.
-
-She stops, and goes back to not saying anything.
-Teacher: Well, if that's all, you can take your seats and we can start the class.
-
-They do, and our teacher begins his lecture.
-
-I don't think anyone pays much attention to it, however.
-
-<<return>>
-
-
 :: borrow_pen
 I head to the library, to get some studying done.
 
@@ -271,6 +227,8 @@ She says, and she goes back to studying.
 
 :: Start Game
 <<set day = 0 >>
+
+<<set saw_introduction = false>>
 
 In case you're just tuning in, here's the story of my life to date.
 <<pause>>
@@ -421,6 +379,79 @@ What should I do today?
 <<call evening>>
 
 *[[Continue|night]]
+
+
+:: introduction
+I run to school, and make it to my seat just as the bell signalling the start of class rings.
+<<pause>>
+
+Teacher: Before we start, I have an announcement to make.
+Teacher: We will have two new students joining us. Girls, come on in.
+<<pause>>
+
+Two girls walk in, and stand in front of the class.
+<<pause>>
+
+They're twins.
+<<pause>>
+
+Identical twins.
+<<pause>>
+
+Identical black hair, and the same pretty face.
+<<pause>>
+
+Despite that, it's still fairly easy to tell them apart.
+<<pause>>
+
+The one on the left is wearing glasses.
+<<pause>>
+
+Not too thick, but enough to let me know she probably reads alot of books.
+<<pause>>
+
+If I look a little closely, I can find another difference.
+<<pause>>
+
+The one on the right probably exercises a bit more.
+<<pause>>
+
+I can tell by the muscle tone in her legs.
+<<pause>>
+
+I realize that I'm staring at her legs, and quickly look up.
+<<pause>>
+
+Suddenly, I realize that she's been talking for all this town.
+<<pause>>
+
+Sporty Girl: ... to this town. And we hope to be friends with all of you.
+<<pause>>
+
+Sporty Girl: Well, that's about it. Sis, do you have anything to say?
+<<pause>>
+
+The girl with glasses pauses for a second, and then quickly says:
+<<pause>>
+
+Glasses Girl: It's good to meet you all.
+<<pause>>
+
+She stops, and goes back to not saying anything.
+<<pause>>
+
+Teacher: Well, if that's all, you can take your seats and we can start the class.
+<<pause>>
+
+They do, and our teacher begins his lecture.
+<<pause>>
+
+I don't think anyone pays much attention to it, however.
+<<pause>>
+
+<<set saw_introduction = true>>
+
+<<return>>
 
 
 :: choose_evening
@@ -615,6 +646,11 @@ Evening
 
 :: events_run_period
 <<if act is act_class >>
+	<<if not saw_introduction>>
+		<<call introduction>>
+		<<return>>
+	<<endif>>
+
 	<<call class>>
 	<<return>>
 <<endif>>
