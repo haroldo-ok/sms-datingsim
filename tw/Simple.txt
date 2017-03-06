@@ -288,7 +288,7 @@ And this is my story...
 <<pause>>
 
 <<set strength = 10 >>
-<<set inteligence = 10 >>
+<<set intelligence = 10 >>
 
 * [[Continue|day]]
 
@@ -310,14 +310,14 @@ She pulls out past me, and disappears into the distance. One day I'll catch up t
 * [[Afternoon - Hang Out|opt_hang]]
 
 
-:: opt_hang
-<<set afternoon_act = act_hang >>
+:: opt_study
+<<set afternoon_act = act_study >>
 <<return>>
 
 
 
-:: opt_study
-<<set afternoon_act = act_study >>
+:: opt_hang
+<<set afternoon_act = act_hang >>
 <<return>>
 
 
@@ -402,7 +402,7 @@ Even though I'm jogging, she pulls away as if it is nothing.
 
 It's day&nbsp;<<print day >>.
 Strength: <<print strength >>.
-Inteligence: <<print inteligence >>.
+Intelligence: <<print intelligence >>.
 <<pause>>
 
 <<set morning_act = 0 >>
@@ -429,7 +429,7 @@ What should I do today?
 
 
 :: opt_exercise
-<<set afternoon_act = act_exercise >>
+<<set evening_act = act_exercise >>
 <<return>>
 
 
@@ -508,11 +508,11 @@ It's getting late, so I decide to go to sleep.
 
 <<call events_end_day>>
 
-[[Sleep|day]]
+* [[Sleep|day]]
 
 
 :: opt_play
-<<set afternoon_act = act_play >>
+<<set evening_act = act_play >>
 <<return>>
 
 
@@ -632,15 +632,23 @@ Evening
 <<endif>>
 
 <<if act is act_study >>
+	<<call study>>
+	<<return>>
 <<endif>>
 
 <<if act is act_hang >>
+	<<call hang>>
+	<<return>>
 <<endif>>
 
 <<if act is act_exercise >>
+	<<call exercise>>
+	<<return>>
 <<endif>>
 
 <<if act is act_play >>
+	<<call play>>
+	<<return>>
 <<endif>>
 
 <<return>>

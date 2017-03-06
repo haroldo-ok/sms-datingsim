@@ -362,7 +362,7 @@ Tiddler
 p119
 (dp120
 g19
-V<<set day = day + 1 >>\u000a\u000aIt's day&nbsp;<<print day >>.\u000aStrength: <<print strength >>.\u000aInteligence: <<print inteligence >>.\u000a<<pause>>\u000a\u000a<<set morning_act = 0 >>\u000a<<set afternoon_act = 0 >>\u000a<<set evening_act = 0 >>\u000a\u000aWhat should I do today?\u000a<<pause>>\u000a\u000a<<call choose_morning>>\u000a<<call choose_afternoon>>\u000a<<call choose_evening>>\u000a\u000a<<call morning>>\u000a<<call afternoon>>\u000a<<call evening>>\u000a\u000a*[[Continue|night]]
+V<<set day = day + 1 >>\u000a\u000aIt's day&nbsp;<<print day >>.\u000aStrength: <<print strength >>.\u000aIntelligence: <<print intelligence >>.\u000a<<pause>>\u000a\u000a<<set morning_act = 0 >>\u000a<<set afternoon_act = 0 >>\u000a<<set evening_act = 0 >>\u000a\u000aWhat should I do today?\u000a<<pause>>\u000a\u000a<<call choose_morning>>\u000a<<call choose_afternoon>>\u000a<<call choose_evening>>\u000a\u000a<<call morning>>\u000a<<call afternoon>>\u000a<<call evening>>\u000a\u000a*[[Continue|night]]
 p121
 sg21
 Vday
@@ -372,9 +372,9 @@ g24
 ((I2017
 I3
 I5
-I21
-I35
-I3
+I22
+I37
+I36
 I6
 I64
 I0
@@ -536,7 +536,7 @@ Tiddler
 p171
 (dp172
 g19
-V<<set day = 0 >>\u000a\u000aIn case you're just tuning in, here's the story of my life to date.\u000a<<pause>>\u000a\u000aI'm a guy in the second year of high school.\u000a<<pause>>\u000a\u000aI'm not good at sports or school or even something as simple as remembering peoples names.\u000a<<pause>>\u000a\u000aIn short, I am your usual random loser guy.\u000a<<pause>>\u000a\u000aAnd this is my story...\u000a<<pause>>\u000a\u000a<<set strength = 10 >>\u000a<<set inteligence = 10 >>\u000a\u000a* [[Continue|day]]
+V<<set day = 0 >>\u000a\u000aIn case you're just tuning in, here's the story of my life to date.\u000a<<pause>>\u000a\u000aI'm a guy in the second year of high school.\u000a<<pause>>\u000a\u000aI'm not good at sports or school or even something as simple as remembering peoples names.\u000a<<pause>>\u000a\u000aIn short, I am your usual random loser guy.\u000a<<pause>>\u000a\u000aAnd this is my story...\u000a<<pause>>\u000a\u000a<<set strength = 10 >>\u000a<<set intelligence = 10 >>\u000a\u000a* [[Continue|day]]
 p173
 sg21
 VStart Game
@@ -546,9 +546,9 @@ g24
 ((I2017
 I3
 I5
-I21
-I56
-I8
+I22
+I37
+I57
 I6
 I64
 I0
@@ -1574,8 +1574,8 @@ g12
 I00
 sg13
 (lp483
-I1600
-aI411
+I1601
+aI282
 asg15
 (itiddlywiki
 Tiddler
@@ -1624,8 +1624,8 @@ g12
 I00
 sg13
 (lp498
-F1602.0
-aF277.0
+F1598.0
+aF409.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1725,14 +1725,14 @@ I00
 sg13
 (lp528
 I1599
-aI663
+aI664
 asg15
 (itiddlywiki
 Tiddler
 p529
 (dp530
 g19
-V<<set afternoon_act = act_play >>\u000a<<return>>\u000a
+V<<set evening_act = act_play >>\u000a<<return>>\u000a
 p531
 sg21
 Vopt_play
@@ -1742,9 +1742,9 @@ g24
 ((I2017
 I3
 I5
-I21
-I30
-I45
+I22
+I35
+I52
 I6
 I64
 I0
@@ -1782,7 +1782,7 @@ Tiddler
 p544
 (dp545
 g19
-V<<set afternoon_act = act_exercise >>\u000a<<return>>\u000a
+V<<set evening_act = act_exercise >>\u000a<<return>>\u000a
 p546
 sg21
 Vopt_exercise
@@ -1792,9 +1792,9 @@ g24
 ((I2017
 I3
 I5
-I21
-I30
-I31
+I22
+I35
+I43
 I6
 I64
 I0
@@ -1832,7 +1832,7 @@ Tiddler
 p559
 (dp560
 g19
-V<<if act is act_class >>\u000a	<<call class>>\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_cut >>\u000a	<<set cut_type = random(1, 2) >>\u000a	<<if cut_type is 1>>\u000a		<<call cut1>>\u000a	<<endif>>\u000a	<<if cut_type is 2>>\u000a		<<call cut2>>\u000a	<<endif>>\u000a\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_study >>\u000a<<endif>>\u000a\u000a<<if act is act_hang >>\u000a<<endif>>\u000a\u000a<<if act is act_exercise >>\u000a<<endif>>\u000a\u000a<<if act is act_play >>\u000a<<endif>>\u000a\u000a<<return>>
+V<<if act is act_class >>\u000a	<<call class>>\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_cut >>\u000a	<<set cut_type = random(1, 2) >>\u000a	<<if cut_type is 1>>\u000a		<<call cut1>>\u000a	<<endif>>\u000a	<<if cut_type is 2>>\u000a		<<call cut2>>\u000a	<<endif>>\u000a\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_study >>\u000a	<<call study>>\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_hang >>\u000a	<<call hang>>\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_exercise >>\u000a	<<call exercise>>\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_play >>\u000a	<<call play>>\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<return>>
 p561
 sg21
 Vevents_run_period
@@ -1842,9 +1842,9 @@ g24
 ((I2017
 I3
 I5
-I21
-I52
-I49
+I22
+I32
+I46
 I6
 I64
 I0
