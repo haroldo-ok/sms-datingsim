@@ -1,38 +1,4 @@
-﻿:: cookies
-I head to the library, to get some studying done.
-
-The glasses girl is there, apparently waiting for me.
-
-She's holding a package in her hands.
-Glasses Girl: Here.
-
-She says, and she hands me the package.
-
-I take it from her, and open it.
-
-It contains fresh homemade cookies. Ginger snaps, I think.
-Glasses Girl: It's to thank you.
-
-She points out... She's probably not used to this. Especially with guys.
-
-I take one of them, and stick it in my mouth.
-
-The taste is exquisite.
-
-It's perhaps one of the best cookies I've ever tasted.
-
-Of course it is. It's the only cookie I'd ever tasted that was made for me by a beutiful girl.
-
-I tell her this... that it's delicious, not the girl part.
-
-But I do let slip that if I could eat these every day, I'd be the happiest guy in the world.
-
-At this, she can only blush.
-
-<<return>>
-
-
-:: pothole
+﻿:: pothole
 I start running, and meet up with the sporty girl as she passes the street in front of my house.
 
 We run together for several miles.
@@ -74,41 +40,6 @@ She accepts this, and climbs up onto my back.
 She wraps her arms around my neck, and I place my hands underneath her to make a seat.
 
 I stand up, and start carrying her home.
-
-<<return>>
-
-
-:: bookslide
-I head to the library, to get some studying done.
-
-The glasses girl is standing right by the entrance, putting a book back into a bookcase containing science books.
-
-It looks quite old, and quite weak, as if it could break at any time.
-
-Suddenly, I hear a loud crack come from the bookcase.
-
-Without thinking, I throw myself between the girl and the bookcase, pushing her out of the way in the process.
-
-As the shelves fail one by one, I'm hit with large textbooks on topics ranging from Astronomy to Zoology.
-
-She's safe, but I'm knocked off my feet by the falling books.
-
-Before the dust even settled, the girl with glasses realized what happened and asked:
-Glasses Girl: Are you alright?
-
-I tell her that I am, all the while rubbing a bruise left by a particularly large Physics book.
-Glasses Girl: You saved me.
-
-She points out. I shrug... I guess I did, but it's not like I'm a hero or anything.
-
-She extends out her hand, I take it, and she helps me to get up.
-Glasses Girl: Wow... Um...
-
-She doesn't know what to say.
-
-I suggest that we help clean up the mess, mostly to take her off the spot.
-
-She agrees, and together we begin piling the books up into neat piles.
 
 <<return>>
 
@@ -177,48 +108,6 @@ I nod a third time, and we take off, running side by side.
 <<return>>
 
 
-:: gg_smiling
-I head to the library, to get some studying done.
-
-The glasses girl is there, and smiles at me for a second before turning back to her book.
-
-I decide not to disturb her, and instead start reading my own book.
-
-<<set intelligence = intelligence + 10 >>
-
-<<return>>
-
-
-:: borrow_pen
-I head to the library, to get some studying done.
-
-The glasses girl is there, but she's busy reading a book.
-
-I decide not to disturb her, and instead start reading my own book.
-
-Suddenly, I feel a tap on my shoulder.
-
-I look up, and see the glasses girl standing right next to me.
-Glasses Girl: Excuse me, but can I borrow your pen?
-Glasses Girl: Mine ran out of ink.
-
-I dig through my bag, to find the pen I had stashed there.
-
-While I'm looking, I point out that she seems to come to the library alot.
-Glasses Girl: Hm... I guess you're right.
-Glasses Girl: There's so much stuff here, and I want to know about it all.
-Glasses Girl: Surely, you must feel the same way, as you're here almost as much as I am.
-
-I don't have the heart to tell her that I'm only here to study so that I don't fail out.
-
-My hand brushes the pen, and I quickly pull it out and give it to her.
-Glasses Girl: Thank you.
-
-She says, and she goes back to studying.
-
-<<return>>
-
-
 :: opt_cut
 <<set morning_act = act_cut >>
 <<return>>
@@ -229,6 +118,9 @@ She says, and she goes back to studying.
 <<set day = 0 >>
 
 <<set saw_introduction = false>>
+<<set saw_borrow_pen = false>>
+<<set saw_bookslide = false>>
+<<set saw_cookies = false>>
 
 In case you're just tuning in, here's the story of my life to date.
 <<pause>>
@@ -479,52 +371,15 @@ She's right, of course, and I redouble my efforts to try to keep up with her.
 <<return>>
 
 
-:: gg_confess
-I once again barely make it to class on time.
-
-I sit down, at my desk, and put some of my books into it.
-
-My hand brushes a folded sheet of paper, one I didn't remember putting in there.
-
-It's a girl's handwriting... 'Meet me on the roof at lunch.'
-
-That's all it says... no signature or anything.
-
-Lunch is a few hours away, but the time passes like a blur.
-
-It's all I can do to avoid racing up to the roof... but I give it some time anyway.
-
-It wouldn't make sense for me to get there first.
-
-I let two minutes elapse before leaving the classroom, and then slowly walk the flights of stairs up to the roof.
-
-Standing there, I find the glasses girl.
-
-She's holding what looks like a homemade lunch... big enough for two.
-
-I look at it, then her, then remember what I had said after she made me the cookies.
-
-Finally, I ask her... 'Does this mean?'
-
-She nods. It's all the confirmation I need.
-
-I sit down next to my new girlfriend... and together we start eating her lunch.
-
-I'm probably the happiest guy in the world.
-
-But I still have to find out her name.
-
-<<pause>>
-Ending 1.
-[[Restart|Start]]
-
-
 :: gg_studying
 I head to the library, to get some studying done.
+<<pause>>
 
 The glasses girl is there, but she's busy reading a book, taking notes as she does so.
+<<pause>>
 
 I decide not to disturb her, and instead start reading my own book.
+<<pause>>
 
 <<set intelligence = intelligence + 10 >>
 
@@ -620,6 +475,60 @@ Ending 3.
 [[Restart|Start]]
 
 
+:: borrow_pen
+I head to the library, to get some studying done.
+<<pause>>
+
+The glasses girl is there, but she's busy reading a book.
+<<pause>>
+
+I decide not to disturb her, and instead start reading my own book.
+<<pause>>
+
+Suddenly, I feel a tap on my shoulder.
+<<pause>>
+
+I look up, and see the glasses girl standing right next to me.
+<<pause>>
+
+Glasses Girl: Excuse me, but can I borrow your pen?
+<<pause>>
+
+Glasses Girl: Mine ran out of ink.
+<<pause>>
+
+I dig through my bag, to find the pen I had stashed there.
+<<pause>>
+
+While I'm looking, I point out that she seems to come to the library alot.
+<<pause>>
+
+Glasses Girl: Hm... I guess you're right.
+<<pause>>
+
+Glasses Girl: There's so much stuff here, and I want to know about it all.
+<<pause>>
+
+Glasses Girl: Surely, you must feel the same way, as you're here almost as much as I am.
+<<pause>>
+
+I don't have the heart to tell her that I'm only here to study so that I don't fail out.
+<<pause>>
+
+My hand brushes the pen, and I quickly pull it out and give it to her.
+<<pause>>
+
+Glasses Girl: Thank you.
+<<pause>>
+
+She says, and she goes back to studying.
+<<pause>>
+
+<<set saw_borrow_pen = true>>
+
+<<return>>
+
+
 :: morning
 Morning
 <<pause>>
@@ -651,6 +560,11 @@ Evening
 		<<return>>
 	<<endif>>
 
+	<<if saw_cookies>>
+		<<call gg_confess>>
+		<<return>>
+	<<endif>>
+
 	<<call class>>
 	<<return>>
 <<endif>>
@@ -668,6 +582,33 @@ Evening
 <<endif>>
 
 <<if act is act_study >>
+	<<if saw_bookslide>>
+		<<if not saw_cookies>>
+			<<call cookies>>
+			<<return>>
+		<<endif>>
+	<<endif>>
+
+	<<if saw_introduction>>
+		<<if not saw_borrow_pen and intelligence >= 20>>
+			<<call borrow_pen>>
+			<<return>>
+		<<endif>>
+
+		<<if saw_borrow_pen>>
+			<<if not saw_bookslide and intelligence >= 40>>
+				<<call bookslide>>
+				<<return>>
+			<<endif>>
+
+			<<call gg_smiling>>
+			<<return>>
+		<<endif>>
+
+		<<call gg_studying>>
+		<<return>>
+	<<endif>>
+
 	<<call study>>
 	<<return>>
 <<endif>>
@@ -700,6 +641,21 @@ I finish the course that we usually take, but it's not the same without her.
 <<return>>
 
 
+:: gg_smiling
+I head to the library, to get some studying done.
+<<pause>>
+
+The glasses girl is there, and smiles at me for a second before turning back to her book.
+<<pause>>
+
+I decide not to disturb her, and instead start reading my own book.
+<<pause>>
+
+<<set intelligence = intelligence + 10 >>
+
+<<return>>
+
+
 :: class
 I make it to class just in time, and proceed to listen to the teacher droning on about a wide range of topics, none of which are remotely interesting.
 <<pause>>
@@ -718,6 +674,63 @@ I cut class, and spend the morning goofing off instead.
 :: cut2
 I cut class, and spend the morning playing computer games.
 <<pause>>
+
+<<return>>
+
+
+:: bookslide
+I head to the library, to get some studying done.
+<<pause>>
+
+The glasses girl is standing right by the entrance, putting a book back into a bookcase containing science books.
+<<pause>>
+
+It looks quite old, and quite weak, as if it could break at any time.
+<<pause>>
+
+Suddenly, I hear a loud crack come from the bookcase.
+<<pause>>
+
+Without thinking, I throw myself between the girl and the bookcase, pushing her out of the way in the process.
+<<pause>>
+
+As the shelves fail one by one, I'm hit with large textbooks on topics ranging from Astronomy to Zoology.
+<<pause>>
+
+She's safe, but I'm knocked off my feet by the falling books.
+<<pause>>
+
+Before the dust even settled, the girl with glasses realized what happened and asked:
+<<pause>>
+
+Glasses Girl: Are you alright?
+<<pause>>
+
+I tell her that I am, all the while rubbing a bruise left by a particularly large Physics book.
+<<pause>>
+
+Glasses Girl: You saved me.
+<<pause>>
+
+She points out. I shrug... I guess I did, but it's not like I'm a hero or anything.
+<<pause>>
+
+She extends out her hand, I take it, and she helps me to get up.
+<<pause>>
+
+Glasses Girl: Wow... Um...
+<<pause>>
+
+She doesn't know what to say.
+<<pause>>
+
+I suggest that we help clean up the mess, mostly to take her off the spot.
+<<pause>>
+
+She agrees, and together we begin piling the books up into neat piles.
+<<pause>>
+
+<<set saw_bookslide = true>>
 
 <<return>>
 
@@ -746,6 +759,63 @@ I decide to go out for a run through the town, to keep myself in shape.
 <<return>>
 
 
+:: cookies
+I head to the library, to get some studying done.
+<<pause>>
+
+The glasses girl is there, apparently waiting for me.
+<<pause>>
+
+She's holding a package in her hands.
+<<pause>>
+
+Glasses Girl: Here.
+<<pause>>
+
+She says, and she hands me the package.
+<<pause>>
+
+I take it from her, and open it.
+<<pause>>
+
+It contains fresh homemade cookies. Ginger snaps, I think.
+<<pause>>
+
+Glasses Girl: It's to thank you.
+<<pause>>
+
+She points out... She's probably not used to this. 
+<<pause>>
+
+Especially with guys.
+<<pause>>
+
+I take one of them, and stick it in my mouth.
+<<pause>>
+
+The taste is exquisite.
+<<pause>>
+
+It's perhaps one of the best cookies I've ever tasted.
+<<pause>>
+
+Of course it is. It's the only cookie I'd ever tasted that was made for me by a beutiful girl.
+<<pause>>
+
+I tell her this... that it's delicious, not the girl part.
+<<pause>>
+
+But I do let slip that if I could eat these every day, I'd be the happiest guy in the world.
+<<pause>>
+
+At this, she can only blush.
+<<pause>>
+
+<<set saw_cookies = true>>
+
+<<return>>
+
+
 :: play
 I pop a DVD into my video game console, and spend the evening rolling small cities up into balls.
 	 
@@ -753,5 +823,62 @@ I pop a DVD into my video game console, and spend the evening rolling small citi
 <<pause>>
 
 <<return>>
+
+
+:: gg_confess
+I once again barely make it to class on time.
+<<pause>>
+
+I sit down, at my desk, and put some of my books into it.
+<<pause>>
+
+My hand brushes a folded sheet of paper, one I didn't remember putting in there.
+<<pause>>
+
+It's a girl's handwriting... 'Meet me on the roof at lunch.'
+<<pause>>
+
+That's all it says... no signature or anything.
+<<pause>>
+
+Lunch is a few hours away, but the time passes like a blur.
+<<pause>>
+
+It's all I can do to avoid racing up to the roof... but I give it some time anyway.
+<<pause>>
+
+It wouldn't make sense for me to get there first.
+<<pause>>
+
+I let two minutes elapse before leaving the classroom, and then slowly walk the flights of stairs up to the roof.
+<<pause>>
+
+Standing there, I find the glasses girl.
+<<pause>>
+
+She's holding what looks like a homemade lunch... big enough for two.
+<<pause>>
+
+I look at it, then her, then remember what I had said after she made me the cookies.
+<<pause>>
+
+Finally, I ask her... 'Does this mean?'
+<<pause>>
+
+She nods. It's all the confirmation I need.
+<<pause>>
+
+I sit down next to my new girlfriend... and together we start eating her lunch.
+<<pause>>
+
+I'm probably the happiest guy in the world.
+<<pause>>
+
+But I still have to find out her name.
+<<pause>>
+
+Ending 1.
+
+* [[Restart|Start]]
 
 
