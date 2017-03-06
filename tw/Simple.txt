@@ -284,7 +284,7 @@ I'm not good at sports or school or even something as simple as remembering peop
 In short, I am your usual random loser guy.
 <<pause>>
 
-And this is my sto...
+And this is my story...
 <<pause>>
 
 <<set strength = 10 >>
@@ -303,30 +303,6 @@ She pulls out past me, and disappears into the distance. One day I'll catch up t
 <<set strength = strength + 10 >>
 
 <<return>>
-
-
-:: exercise
-I decide to go out for a run through the town, to keep myself in shape.
-
-<<set strength = strength + 10 >>
-
-<<return>>
-
-
-:: play
-I pop a DVD into my video game console, and spend the evening rolling small cities up into balls.
-	 
-<<set strength = strength - 10 >>
-
-<<return>>
-
-
-:: evening
-Evening
-<<pause>>
-<<set period = "evening" >>
-<<set act = evening_act >>
-<<call events_run_period>>
 
 
 :: choose_afternoon
@@ -421,26 +397,6 @@ Even though I'm jogging, she pulls away as if it is nothing.
 <<return>>
 
 
-:: hang
-I spend the afternoon hanging out with my friends, killing some time.
-
-<<return>>
-
-
-:: cut1
-I cut class, and spend the morning goofing off instead.
-
-<<set intelligence = intelligence - 10 >>
-
-<<return>>
-
-
-:: cut2
-I cut class, and spend the morning playing computer games.
-
-<<return>>
-
-
 :: day
 <<set day = day + 1 >>
 
@@ -467,13 +423,6 @@ What should I do today?
 *[[Continue|night]]
 
 
-:: morning
-Morning
-<<pause>>
-<<set act = morning_act >>
-
-
-
 :: choose_evening
 * [[Evening - Exercise|opt_exercise]]
 * [[Evening - Play Games|opt_play]]
@@ -483,14 +432,6 @@ Morning
 <<set afternoon_act = act_exercise >>
 <<return>>
 
-
-
-:: class
-I make it to class just in time, and proceed to listen to the teacher droning on about a wide range of topics, none of which are remotely interesting.
-
-<<return>>
-
-<<return>>
 
 
 :: apart
@@ -559,13 +500,6 @@ I decide not to disturb her, and instead start reading my own book.
 <<return>>
 
 
-:: study
-I head on down to the library, and start reading about the topics I should have been reading about in class.
-<<set intelligence = intelligence + 10 >>
-
-<<return>>
-
-
 :: night
 Night
 <<pause>>
@@ -574,7 +508,7 @@ It's getting late, so I decide to go to sleep.
 
 <<call events_end_day>>
 
-[[day|day]]
+[[Sleep|day]]
 
 
 :: opt_play
@@ -655,12 +589,61 @@ Ending 3.
 [[Restart|Start]]
 
 
+:: morning
+Morning
+<<pause>>
+<<set act = morning_act >>
+<<call events_run_period>>
+<<return>>
+
+
 :: afternoon
 Afternoon
 <<pause>>
-<<set period = "afternoon" >>
 <<set act = afternoon_act >>
 <<call events_run_period>>
+<<return>>
+
+
+:: evening
+Evening
+<<pause>>
+<<set act = evening_act >>
+<<call events_run_period>>
+<<return>>
+
+
+:: events_run_period
+<<if act is act_class >>
+	<<call class>>
+	<<return>>
+<<endif>>
+
+<<if act is act_cut >>
+	<<set cut_type = random(1, 2) >>
+	<<if cut_type is 1>>
+		<<call cut1>>
+	<<endif>>
+	<<if cut_type is 2>>
+		<<call cut2>>
+	<<endif>>
+
+	<<return>>
+<<endif>>
+
+<<if act is act_study >>
+<<endif>>
+
+<<if act is act_hang >>
+<<endif>>
+
+<<if act is act_exercise >>
+<<endif>>
+
+<<if act is act_play >>
+<<endif>>
+
+<<return>>
 
 
 :: dontsee
@@ -669,6 +652,61 @@ I go running again.
 But this time, I don't see the sporty girl.
 
 I finish the course that we usually take, but it's not the same without her.
+
+<<return>>
+
+
+:: class
+I make it to class just in time, and proceed to listen to the teacher droning on about a wide range of topics, none of which are remotely interesting.
+<<pause>>
+
+<<return>>
+
+
+:: cut1
+I cut class, and spend the morning goofing off instead.
+<<set intelligence = intelligence - 10 >>
+<<pause>>
+
+<<return>>
+
+
+:: cut2
+I cut class, and spend the morning playing computer games.
+<<pause>>
+
+<<return>>
+
+
+:: study
+I head on down to the library, and start reading about the topics I should have been reading about in class.
+<<set intelligence = intelligence + 10 >>
+<<pause>>
+
+<<return>>
+
+
+:: hang
+I spend the afternoon hanging out with my friends, killing some time.
+<<pause>>
+
+<<return>>
+
+
+:: exercise
+I decide to go out for a run through the town, to keep myself in shape.
+
+<<set strength = strength + 10 >>
+<<pause>>
+
+<<return>>
+
+
+:: play
+I pop a DVD into my video game console, and spend the evening rolling small cities up into balls.
+	 
+<<set strength = strength - 10 >>
+<<pause>>
 
 <<return>>
 
