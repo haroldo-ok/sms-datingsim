@@ -459,28 +459,30 @@ Evening
 			<<return>>
 		<<endif>>
 
-		<<if strength >= 30 and not saw_caughtme>>
-			<<call caughtme>>
-			<<return>>
-		<<endif>>
-
-		<<if strength >= 30 and saw_caughtme>>
-			<<call together>>
-			<<return>>
-		<<endif>>
-
-		<<if strength < 30 and saw_caughtme>>
-			<<call apart>>
-			<<return>>
-		<<endif>>
-
-		<<if strength >= 50 and saw_caughtme and not saw_pothole>>
-			<<call pothole>>
-			<<return>>
-		<<endif>>
-
-		<<if strength >= 50 and saw_pothole>>
+		<<if saw_pothole>>
 			<<call dontsee>>
+			<<return>>
+		<<endif>>
+
+		<<if saw_caughtme>>
+			<<if strength >= 40>>
+				<<call pothole>>
+				<<return>>
+			<<endif>>
+
+			<<if strength >= 20>>
+				<<call together>>
+				<<return>>
+			<<endif>>
+
+			<<if strength < 20>>
+				<<call apart>>
+				<<return>>
+			<<endif>>
+		<<endif>>
+
+		<<if strength >= 20>>
+			<<call caughtme>>
 			<<return>>
 		<<endif>>
 
