@@ -1,50 +1,4 @@
-﻿:: pothole
-I start running, and meet up with the sporty girl as she passes the street in front of my house.
-
-We run together for several miles.
-
-I think about how much I've improved in our time together.
-
-And, although she probably won't admit it, I think she's improved as well.
-
-I guess a little friendly competition is usually for the best.
-
-A small yelp pulls me out of my thought.
-Sporty Girl: Ow!
-
-The sporty girl sits down, grabbing her ankle.
-
-I ask her what happened.
-Sporty Girl: I... hit a... pothole. Twisted my... ankle.
-
-I wince in sympathy.
-
-We wait a bit. I'm not sure what to do.
-
-Finally, I ask her if she can walk on it.
-
-She tries for a bit, but then winces in pain.
-Sporty Girl: No, I don't think so.
-
-I realize that we can't stay here.
-
-And so, I crouch down and motion for her to climb up onto my back.
-Sporty Girl: What are you doing?
-
-I explain that she can't stay out in the middle of the street forever, and she won't get any help until I can get her home.
-
-And the only way to do that is for me to carry her.
-
-She accepts this, and climbs up onto my back.
-
-She wraps her arms around my neck, and I place my hands underneath her to make a seat.
-
-I stand up, and start carrying her home.
-
-<<return>>
-
-
-:: dp_callback
+﻿:: dp_callback
 What should I do today?
 <<return>>
 
@@ -76,38 +30,6 @@ Inspired by Ren'py's Dating Sim Engine
 * [[Start Game|Start Game]]
 
 
-:: caughtme
-I'm out running again, when the sporty girl catches up to me.
-Sporty Girl: Still at it?
-Sporty Girl: Well, keep up the good work. One day you'll be as fast as me!
-Sporty Girl: Well, maybe.
-
-
-Today, however, I'm not about to let this stand unchallenged.
-
-I break out into a run, and for the first time ever, I keep up with her.
-
-We both run, neck and neck, me keeping up with her.
-
-Finally, she starts slowing down, and we come to a stop together.
-Sporty Girl: Not bad.
-
-She pauses to catch her breath.
-Sporty Girl: You've been practicing, and it really shows.
-Sporty Girl: You've finally become fast enough to run with me.
-
-I nod, accepting her praise.
-Sporty Girl: We should do this more often... it's better to run with someone else, to keep the challenge up.
-
-I nod again.
-Sporty Girl: Well, shall we go?
-
-I nod a third time, and we take off, running side by side.
-<<set strength = strength + 10 >>
-
-<<return>>
-
-
 :: opt_cut
 <<set morning_act = act_cut >>
 <<return>>
@@ -121,6 +43,11 @@ I nod a third time, and we take off, running side by side.
 <<set saw_borrow_pen = false>>
 <<set saw_bookslide = false>>
 <<set saw_cookies = false>>
+
+<<set saw_catchme = false>>
+<<set saw_caughtme = false>>
+<<set saw_pothole = false>>
+<<set saw_dontsee = false>>
 
 In case you're just tuning in, here's the story of my life to date.
 <<pause>>
@@ -143,18 +70,6 @@ And this is my story...
 * [[Continue|day]]
 
 
-:: cantcatchme
-I'm out running again, when the sporty girl catches up to me.
-Sporty Girl: Still at it?
-Sporty Girl: Well, keep up the good work. One day you'll be as fast as me!
-Sporty Girl: Well, maybe.
-
-She pulls out past me, and disappears into the distance. One day I'll catch up to her.
-<<set strength = strength + 10 >>
-
-<<return>>
-
-
 :: choose_afternoon
 * [[Afternoon - Study|opt_study]]
 * [[Afternoon - Hang Out|opt_hang]]
@@ -170,81 +85,6 @@ She pulls out past me, and disappears into the distance. One day I'll catch up t
 <<set afternoon_act = act_hang >>
 <<return>>
 
-
-
-:: sg_confess
-I once again barely make it to class on time.
-
-I sit down, at my desk, and put some of my books into it.
-
-My hand brushes a folded sheet of paper, one I didn't remember putting in there.
-
-It's a girl's handwriting... 'Meet me on the roof at lunch.'
-
-That's all it says... no signature or anything.
-
-Lunch is a few hours away, but the time passes like a blur.
-
-It's all I can do to avoid racing up to the roof... but I give it some time anyway.
-
-It wouldn't make sense for me to get there first.
-
-I let two minutes elapse before leaving the classroom, and then slowly walk the flights of stairs up to the roof.
-
-Standing there, I find the sporty girl.
-
-She's leaning on a crutch.
-
-I look at it for a second, and she notices that.
-Sporty Girl: I went to the doctor, and he gave me this.
-Sporty Girl: Looks like we won't be running together for a while.
-
-I nod.
-Sporty Girl: And that's why I asked you here.
-Sporty Girl: I couldn't stand the though of not seeing you for a few weeks.
-
-I search my feelings, and realize I feel the same way.
-Sporty Girl: So I thought...
-
-She doesn't say it... she doesn't need to.
-
-We both know how we feel about each other.
-
-And with that, we went from being running partners to partners in
-     a deeper sense.
-
-Now if I only knew her name...
-
-<<pause>>
-Ending 2.
-[[Restart|Start]]
-
-
-:: catchme
-I decide to go out for a run, to keep myself in shape.
-
-As I'm running through the town, I see a girl.
-
-She's one of the twins who transferred into my class.
-
-She waves, and comes over to me.
-Sporty Girl: I didn't know you were a runner.
-
-I point out that I'm not really a runner... I just run a little bit at a time.
-
-I ask her if she wants to run with me for a while.
-Sporty Girl: As if! You couldn't keep up with me.
-
-I point out that I probably can.
-Sporty Girl: Well, let's see.
-
-We set off running, but she quickly pulls past me.
-Sporty Girl: See? Well, maybe we can try it again when you're a bit faster.
-Sporty Girl: Until then, later.
-
-Even though I'm jogging, she pulls away as if it is nothing.
-
-<<return>>
 
 
 :: day
@@ -357,20 +197,6 @@ I don't think anyone pays much attention to it, however.
 
 
 
-:: apart
-I start running, and meet up with the sporty girl as she passes the street in front of my house.
-
-I try to keep up with her, but she pulls away from me.
-
-When she's a block away, she slows down and lets me catch up.
-Sporty Girl: It's your own fault... this is what you get for not practicing.
-
-She's right, of course, and I redouble my efforts to try to keep up with her.
-<<set strength = strength + 10 >>
-
-<<return>>
-
-
 :: gg_studying
 I head to the library, to get some studying done.
 <<pause>>
@@ -382,6 +208,54 @@ I decide not to disturb her, and instead start reading my own book.
 <<pause>>
 
 <<set intelligence = intelligence + 10 >>
+
+<<return>>
+
+
+:: catchme
+I decide to go out for a run, to keep myself in shape.
+<<pause>>
+
+As I'm running through the town, I see a girl.
+<<pause>>
+
+She's one of the twins who transferred into my class.
+<<pause>>
+
+She waves, and comes over to me.
+<<pause>>
+
+Sporty Girl: I didn't know you were a runner.
+<<pause>>
+
+I point out that I'm not really a runner... I just run a little bit at a time.
+<<pause>>
+
+I ask her if she wants to run with me for a while.
+<<pause>>
+
+Sporty Girl: As if! You couldn't keep up with me.
+<<pause>>
+
+I point out that I probably can.
+<<pause>>
+
+Sporty Girl: Well, let's see.
+<<pause>>
+
+We set off running, but she quickly pulls past me.
+<<pause>>
+
+Sporty Girl: See? Well, maybe we can try it again when you're a bit faster.
+<<pause>>
+
+Sporty Girl: Until then, later.
+<<pause>>
+
+Even though I'm jogging, she pulls away as if it is nothing.
+<<pause>>
+
+<<set saw_catchme = true>>
 
 <<return>>
 
@@ -401,78 +275,6 @@ It's getting late, so I decide to go to sleep.
 <<set evening_act = act_play >>
 <<return>>
 
-
-
-:: together
-I start running, and meet up with the sporty girl as she passes the street in front of my house.
-
-She's still better than me... she's been running for over a mile before reaching this point.
-
-Still, I can keep up with her for the rest of the run. And that's not bad.
-<<set strength = strength + 10 >>
-
-<<return>>
-
-
-:: both_confess
-I once again barely make it to class on time.
-
-I sit down, at my desk, and put some of my books into it.
-
-My hand brushes a folded sheet of paper, then another.
-
-I take the first one out, and read it.
-
-It's a girl's handwriting... 'Meet me on the roof at lunch.'
-
-That's all it says... no signature or anything.
-
-I take a look at the second one, and it says the same thing.
-
-Sure, the handwriting is a little different, but...
-
-Lunch is a few hours away, but the time passes like a blur.
-
-It's all I can do to avoid racing up to the roof... but I give it some time anyway.
-    
-I let two minutes elapse before leaving the classroom, and then slowly walk the flights of stairs up to the roof.
-
-Standing there are the twins.
-
-Both of them.
-
-As in, the two notes came from the two twins.
-
-I ask them what they are doing there, feigning ignorance.
-
-Sporty Girl: Well, I invited you up here to confess to you...
-Sporty Girl: ... and then I found out that my sister here was about to do the same thing.
-Glasses Girl: ...I was...
-Sporty Girl: When we found out, we were quite shocked, but after comparing notes, we decide what we're going to do...
-
-I quickly run through the possibilities in my head.
-
-The best cases involve them never talking to me again.
-
-The worst cases involve me being thrown off the roof.
-
-Both Girls: "We're going to share you!
-
-Eh?
-
-That wasn't something I considered.
-
-Each of the girls grabs onto one of my arms.
-
-I don't know what the future holds for us...
-
-... and I don't know if this will work out.
-
-But I do know that one day I will work up the courage to find out their names.
-
-<<pause>>
-Ending 3.
-[[Restart|Start]]
 
 
 :: borrow_pen
@@ -529,6 +331,27 @@ She says, and she goes back to studying.
 <<return>>
 
 
+:: cantcatchme
+I'm out running again, when the sporty girl catches up to me.
+<<pause>>
+
+Sporty Girl: Still at it?
+<<pause>>
+
+Sporty Girl: Well, keep up the good work. One day you'll be as fast as me!
+<<pause>>
+
+Sporty Girl: Well, maybe.
+<<pause>>
+
+She pulls out past me, and disappears into the distance. One day I'll catch up to her.
+<<pause>>
+
+<<set strength = strength + 10 >>
+
+<<return>>
+
+
 :: morning
 Morning
 <<pause>>
@@ -560,8 +383,18 @@ Evening
 		<<return>>
 	<<endif>>
 
+	<<if saw_cookies and saw_dontsee>>
+		<<call both_confess>>
+		<<return>>
+	<<endif>>
+
 	<<if saw_cookies>>
 		<<call gg_confess>>
+		<<return>>
+	<<endif>>
+
+	<<if saw_dontsee>>
+		<<call sg_confess>>
 		<<return>>
 	<<endif>>
 
@@ -619,6 +452,43 @@ Evening
 <<endif>>
 
 <<if act is act_exercise >>
+	<<if saw_introduction>>
+
+		<<if not saw_catchme>>
+			<<call catchme>>
+			<<return>>
+		<<endif>>
+
+		<<if strength >= 30 and not saw_caughtme>>
+			<<call caughtme>>
+			<<return>>
+		<<endif>>
+
+		<<if strength >= 30 and saw_caughtme>>
+			<<call together>>
+			<<return>>
+		<<endif>>
+
+		<<if strength < 30 and saw_caughtme>>
+			<<call apart>>
+			<<return>>
+		<<endif>>
+
+		<<if strength >= 50 and saw_caughtme and not saw_pothole>>
+			<<call pothole>>
+			<<return>>
+		<<endif>>
+
+		<<if strength >= 50 and saw_pothole>>
+			<<call dontsee>>
+			<<return>>
+		<<endif>>
+
+		<<call cantcatchme>>
+		<<return>>
+
+	<<endif>>
+
 	<<call exercise>>
 	<<return>>
 <<endif>>
@@ -627,16 +497,6 @@ Evening
 	<<call play>>
 	<<return>>
 <<endif>>
-
-<<return>>
-
-
-:: dontsee
-I go running again.
-
-But this time, I don't see the sporty girl.
-
-I finish the course that we usually take, but it's not the same without her.
 
 <<return>>
 
@@ -652,6 +512,65 @@ I decide not to disturb her, and instead start reading my own book.
 <<pause>>
 
 <<set intelligence = intelligence + 10 >>
+
+<<return>>
+
+
+:: caughtme
+I'm out running again, when the sporty girl catches up to me.
+<<pause>>
+
+Sporty Girl: Still at it?
+<<pause>>
+
+Sporty Girl: Well, keep up the good work. One day you'll be as fast as me!
+<<pause>>
+
+Sporty Girl: Well, maybe.
+<<pause>>
+
+
+Today, however, I'm not about to let this stand unchallenged.
+<<pause>>
+
+I break out into a run, and for the first time ever, I keep up with her.
+<<pause>>
+
+We both run, neck and neck, me keeping up with her.
+<<pause>>
+
+Finally, she starts slowing down, and we come to a stop together.
+<<pause>>
+
+Sporty Girl: Not bad.
+<<pause>>
+
+She pauses to catch her breath.
+<<pause>>
+
+Sporty Girl: You've been practicing, and it really shows.
+<<pause>>
+
+Sporty Girl: You've finally become fast enough to run with me.
+<<pause>>
+
+I nod, accepting her praise.
+<<pause>>
+
+Sporty Girl: We should do this more often... it's better to run with someone else, to keep the challenge up.
+<<pause>>
+
+I nod again.
+<<pause>>
+
+Sporty Girl: Well, shall we go?
+<<pause>>
+
+I nod a third time, and we take off, running side by side.
+<<pause>>
+
+<<set strength = strength + 10 >>
+<<set saw_caughtme = true>>
 
 <<return>>
 
@@ -731,6 +650,21 @@ She agrees, and together we begin piling the books up into neat piles.
 <<pause>>
 
 <<set saw_bookslide = true>>
+
+<<return>>
+
+
+:: together
+I start running, and meet up with the sporty girl as she passes the street in front of my house.
+<<pause>>
+
+She's still better than me... she's been running for over a mile before reaching this point.
+<<pause>>
+
+Still, I can keep up with her for the rest of the run. And that's not bad.
+<<pause>>
+
+<<set strength = strength + 10 >>
 
 <<return>>
 
@@ -816,6 +750,27 @@ At this, she can only blush.
 <<return>>
 
 
+:: apart
+I start running, and meet up with the sporty girl as she passes the street in front of my house.
+<<pause>>
+
+I try to keep up with her, but she pulls away from me.
+<<pause>>
+
+When she's a block away, she slows down and lets me catch up.
+<<pause>>
+
+Sporty Girl: It's your own fault... this is what you get for not practicing.
+<<pause>>
+
+She's right, of course, and I redouble my efforts to try to keep up with her.
+<<pause>>
+
+<<set strength = strength + 10 >>
+
+<<return>>
+
+
 :: play
 I pop a DVD into my video game console, and spend the evening rolling small cities up into balls.
 	 
@@ -880,5 +835,261 @@ But I still have to find out her name.
 Ending 1.
 
 * [[Restart|Start]]
+
+
+:: pothole
+I start running, and meet up with the sporty girl as she passes the street in front of my house.
+<<pause>>
+
+We run together for several miles.
+<<pause>>
+
+I think about how much I've improved in our time together.
+<<pause>>
+
+And, although she probably won't admit it, I think she's improved as well.
+<<pause>>
+
+I guess a little friendly competition is usually for the best.
+<<pause>>
+
+A small yelp pulls me out of my thought.
+<<pause>>
+
+Sporty Girl: Ow!
+<<pause>>
+
+The sporty girl sits down, grabbing her ankle.
+<<pause>>
+
+I ask her what happened.
+<<pause>>
+
+Sporty Girl: I... hit a... pothole. Twisted my... ankle.
+<<pause>>
+
+I wince in sympathy.
+<<pause>>
+
+We wait a bit. I'm not sure what to do.
+<<pause>>
+
+Finally, I ask her if she can walk on it.
+<<pause>>
+
+She tries for a bit, but then winces in pain.
+<<pause>>
+
+Sporty Girl: No, I don't think so.
+<<pause>>
+
+I realize that we can't stay here.
+<<pause>>
+
+And so, I crouch down and motion for her to climb up onto my back.
+<<pause>>
+
+Sporty Girl: What are you doing?
+<<pause>>
+
+I explain that she can't stay out in the middle of the street forever, and she won't get any help until I can get her home.
+<<pause>>
+
+And the only way to do that is for me to carry her.
+<<pause>>
+
+She accepts this, and climbs up onto my back.
+<<pause>>
+
+She wraps her arms around my neck, and I place my hands underneath her to make a seat.
+<<pause>>
+
+I stand up, and start carrying her home.
+<<pause>>
+
+<<set saw_pothole = true>>
+
+<<return>>
+
+
+:: dontsee
+I go running again.
+<<pause>>
+
+But this time, I don't see the sporty girl.
+<<pause>>
+
+I finish the course that we usually take, but it's not the same without her.
+<<pause>>
+
+<<set saw_dontsee = true>>
+
+<<return>>
+
+
+:: sg_confess
+I once again barely make it to class on time.
+<<pause>>
+
+I sit down, at my desk, and put some of my books into it.
+<<pause>>
+
+My hand brushes a folded sheet of paper, one I didn't remember putting in there.
+<<pause>>
+
+It's a girl's handwriting... 'Meet me on the roof at lunch.'
+<<pause>>
+
+That's all it says... no signature or anything.
+<<pause>>
+
+Lunch is a few hours away, but the time passes like a blur.
+<<pause>>
+
+It's all I can do to avoid racing up to the roof... but I give it some time anyway.
+<<pause>>
+
+It wouldn't make sense for me to get there first.
+<<pause>>
+
+I let two minutes elapse before leaving the classroom, and then slowly walk the flights of stairs up to the roof.
+<<pause>>
+
+Standing there, I find the sporty girl.
+<<pause>>
+
+She's leaning on a crutch.
+<<pause>>
+
+I look at it for a second, and she notices that.
+<<pause>>
+
+Sporty Girl: I went to the doctor, and he gave me this.
+<<pause>>
+
+Sporty Girl: Looks like we won't be running together for a while.
+<<pause>>
+
+I nod.
+<<pause>>
+
+Sporty Girl: And that's why I asked you here.
+<<pause>>
+
+Sporty Girl: I couldn't stand the though of not seeing you for a few weeks.
+<<pause>>
+
+I search my feelings, and realize I feel the same way.
+<<pause>>
+
+Sporty Girl: So I thought...
+<<pause>>
+
+She doesn't say it... she doesn't need to.
+<<pause>>
+
+We both know how we feel about each other.
+<<pause>>
+
+And with that, we went from being running partners to partners in a deeper sense.
+<<pause>>
+
+Now if I only knew her name...
+<<pause>>
+
+Ending 2.
+[[Restart|Start]]
+
+
+:: both_confess
+I once again barely make it to class on time.
+<<pause>>
+
+I sit down, at my desk, and put some of my books into it.
+<<pause>>
+
+My hand brushes a folded sheet of paper, then another.
+<<pause>>
+
+I take the first one out, and read it.
+<<pause>>
+
+It's a girl's handwriting... 'Meet me on the roof at lunch.'
+<<pause>>
+
+That's all it says... no signature or anything.
+<<pause>>
+
+I take a look at the second one, and it says the same thing.
+<<pause>>
+
+Sure, the handwriting is a little different, but...
+<<pause>>
+
+Lunch is a few hours away, but the time passes like a blur.
+<<pause>>
+
+It's all I can do to avoid racing up to the roof... but I give it some time anyway.
+<<pause>>
+    
+I let two minutes elapse before leaving the classroom, and then slowly walk the flights of stairs up to the roof.
+<<pause>>
+
+Standing there are the twins.
+<<pause>>
+
+Both of them.
+<<pause>>
+
+As in, the two notes came from the two twins.
+<<pause>>
+
+I ask them what they are doing there, feigning ignorance.
+<<pause>>
+
+Sporty Girl: Well, I invited you up here to confess to you...
+<<pause>>
+
+Sporty Girl: ... and then I found out that my sister here was about to do the same thing.
+<<pause>>
+
+Glasses Girl: ...I was...
+<<pause>>
+
+Sporty Girl: When we found out, we were quite shocked, but after comparing notes, we decide what we're going to do...
+<<pause>>
+
+I quickly run through the possibilities in my head.
+<<pause>>
+
+The best cases involve them never talking to me again.
+<<pause>>
+
+The worst cases involve me being thrown off the roof.
+<<pause>>
+
+Both Girls: "We're going to share you!
+<<pause>>
+
+Eh?
+<<pause>>
+
+That wasn't something I considered.
+<<pause>>
+
+Each of the girls grabs onto one of my arms.
+<<pause>>
+
+I don't know what the future holds for us...
+<<pause>>
+
+... and I don't know if this will work out.
+<<pause>>
+
+But I do know that one day I will work up the courage to find out their names.
+<<pause>>
+
+Ending 3.
+[[Restart|Start]]
 
 

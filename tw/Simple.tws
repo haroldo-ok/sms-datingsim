@@ -24,8 +24,8 @@ I00
 sS'pos'
 p13
 (lp14
-I614
-aI1135
+I458
+aI1137
 asS'passage'
 p15
 (itiddlywiki
@@ -82,20 +82,37 @@ g12
 I00
 sg13
 (lp37
-I140
-aI0
+I656
+aI1284
 asg15
 (itiddlywiki
 Tiddler
 p38
 (dp39
 g19
-VI start running, and meet up with the sporty girl as she passes the street in front of my house.\u000a\u000aWe run together for several miles.\u000a\u000aI think about how much I've improved in our time together.\u000a\u000aAnd, although she probably won't admit it, I think she's improved as well.\u000a\u000aI guess a little friendly competition is usually for the best.\u000a\u000aA small yelp pulls me out of my thought.\u000aSporty Girl: Ow!\u000a\u000aThe sporty girl sits down, grabbing her ankle.\u000a\u000aI ask her what happened.\u000aSporty Girl: I... hit a... pothole. Twisted my... ankle.\u000a\u000aI wince in sympathy.\u000a\u000aWe wait a bit. I'm not sure what to do.\u000a\u000aFinally, I ask her if she can walk on it.\u000a\u000aShe tries for a bit, but then winces in pain.\u000aSporty Girl: No, I don't think so.\u000a\u000aI realize that we can't stay here.\u000a\u000aAnd so, I crouch down and motion for her to climb up onto my back.\u000aSporty Girl: What are you doing?\u000a\u000aI explain that she can't stay out in the middle of the street forever, and she won't get any help until I can get her home.\u000a\u000aAnd the only way to do that is for me to carry her.\u000a\u000aShe accepts this, and climbs up onto my back.\u000a\u000aShe wraps her arms around my neck, and I place my hands underneath her to make a seat.\u000a\u000aI stand up, and start carrying her home.\u000a\u000a<<return>>
+VI start running, and meet up with the sporty girl as she passes the street in front of my house.\u000a<<pause>>\u000a\u000aWe run together for several miles.\u000a<<pause>>\u000a\u000aI think about how much I've improved in our time together.\u000a<<pause>>\u000a\u000aAnd, although she probably won't admit it, I think she's improved as well.\u000a<<pause>>\u000a\u000aI guess a little friendly competition is usually for the best.\u000a<<pause>>\u000a\u000aA small yelp pulls me out of my thought.\u000a<<pause>>\u000a\u000aSporty Girl: Ow!\u000a<<pause>>\u000a\u000aThe sporty girl sits down, grabbing her ankle.\u000a<<pause>>\u000a\u000aI ask her what happened.\u000a<<pause>>\u000a\u000aSporty Girl: I... hit a... pothole. Twisted my... ankle.\u000a<<pause>>\u000a\u000aI wince in sympathy.\u000a<<pause>>\u000a\u000aWe wait a bit. I'm not sure what to do.\u000a<<pause>>\u000a\u000aFinally, I ask her if she can walk on it.\u000a<<pause>>\u000a\u000aShe tries for a bit, but then winces in pain.\u000a<<pause>>\u000a\u000aSporty Girl: No, I don't think so.\u000a<<pause>>\u000a\u000aI realize that we can't stay here.\u000a<<pause>>\u000a\u000aAnd so, I crouch down and motion for her to climb up onto my back.\u000a<<pause>>\u000a\u000aSporty Girl: What are you doing?\u000a<<pause>>\u000a\u000aI explain that she can't stay out in the middle of the street forever, and she won't get any help until I can get her home.\u000a<<pause>>\u000a\u000aAnd the only way to do that is for me to carry her.\u000a<<pause>>\u000a\u000aShe accepts this, and climbs up onto my back.\u000a<<pause>>\u000a\u000aShe wraps her arms around my neck, and I place my hands underneath her to make a seat.\u000a<<pause>>\u000a\u000aI stand up, and start carrying her home.\u000a<<pause>>\u000a\u000a<<set saw_pothole = true>>\u000a\u000a<<return>>
 p40
 sg21
 Vpothole
 p41
 sg23
+g24
+((I2017
+I3
+I6
+I21
+I40
+I51
+I0
+I65
+I0
+tp42
+(dp43
+tp44
+Rp45
+sg29
+(lp46
+sg31
 g24
 ((I2017
 I3
@@ -106,32 +123,28 @@ I6
 I6
 I64
 I0
-tp42
-(dp43
-tp44
-Rp45
-sg29
-(lp46
-sg31
-g45
-sbsa(dp47
+tp47
+(dp48
+tp49
+Rp50
+sbsa(dp51
 g12
 I00
 sg13
-(lp48
-I614
-aI1008
+(lp52
+I460
+aI1007
 asg15
 (itiddlywiki
 Tiddler
-p49
-(dp50
+p53
+(dp54
 g19
 VI head to the library, to get some studying done.\u000a<<pause>>\u000a\u000aThe glasses girl is standing right by the entrance, putting a book back into a bookcase containing science books.\u000a<<pause>>\u000a\u000aIt looks quite old, and quite weak, as if it could break at any time.\u000a<<pause>>\u000a\u000aSuddenly, I hear a loud crack come from the bookcase.\u000a<<pause>>\u000a\u000aWithout thinking, I throw myself between the girl and the bookcase, pushing her out of the way in the process.\u000a<<pause>>\u000a\u000aAs the shelves fail one by one, I'm hit with large textbooks on topics ranging from Astronomy to Zoology.\u000a<<pause>>\u000a\u000aShe's safe, but I'm knocked off my feet by the falling books.\u000a<<pause>>\u000a\u000aBefore the dust even settled, the girl with glasses realized what happened and asked:\u000a<<pause>>\u000a\u000aGlasses Girl: Are you alright?\u000a<<pause>>\u000a\u000aI tell her that I am, all the while rubbing a bruise left by a particularly large Physics book.\u000a<<pause>>\u000a\u000aGlasses Girl: You saved me.\u000a<<pause>>\u000a\u000aShe points out. I shrug... I guess I did, but it's not like I'm a hero or anything.\u000a<<pause>>\u000a\u000aShe extends out her hand, I take it, and she helps me to get up.\u000a<<pause>>\u000a\u000aGlasses Girl: Wow... Um...\u000a<<pause>>\u000a\u000aShe doesn't know what to say.\u000a<<pause>>\u000a\u000aI suggest that we help clean up the mess, mostly to take her off the spot.\u000a<<pause>>\u000a\u000aShe agrees, and together we begin piling the books up into neat piles.\u000a<<pause>>\u000a\u000a<<set saw_bookslide = true>>\u000a\u000a<<return>>
-p51
+p55
 sg21
 Vbookslide
-p52
+p56
 sg23
 g24
 ((I2017
@@ -143,12 +156,12 @@ I18
 I6
 I64
 I0
-tp53
-(dp54
-tp55
-Rp56
+tp57
+(dp58
+tp59
+Rp60
 sg29
-(lp57
+(lp61
 sg31
 g24
 ((I2017
@@ -160,28 +173,28 @@ I6
 I6
 I64
 I0
-tp58
-(dp59
-tp60
-Rp61
-sbsa(dp62
+tp62
+(dp63
+tp64
+Rp65
+sbsa(dp66
 g12
 I00
 sg13
-(lp63
+(lp67
 I441
 aI21
 asg15
 (itiddlywiki
 Tiddler
-p64
-(dp65
+p68
+(dp69
 g19
 VWhat should I do today?\u000a<<return>>\u000a\u000a
-p66
+p70
 sg21
 Vdp_callback
-p67
+p71
 sg23
 g24
 ((I2017
@@ -193,12 +206,12 @@ I53
 I6
 I64
 I0
-tp68
-(dp69
-tp70
-Rp71
+tp72
+(dp73
+tp74
+Rp75
 sg29
-(lp72
+(lp76
 sg31
 g24
 ((I2017
@@ -210,28 +223,28 @@ I6
 I6
 I64
 I0
-tp73
-(dp74
-tp75
-Rp76
-sbsa(dp77
+tp77
+(dp78
+tp79
+Rp80
+sbsa(dp81
 g12
 I00
 sg13
-(lp78
+(lp82
 I834
 aI41
 asg15
 (itiddlywiki
 Tiddler
-p79
-(dp80
+p83
+(dp84
 g19
 VGeneric Dating Sim\u000aInspired by Ren'py's Dating Sim Engine\u000a\u000a<<set act_class = 1 >>\u000a<<set act_cut = 2 >>\u000a<<set act_study = 3 >>\u000a<<set act_hang = 4 >>\u000a<<set act_exercise = 5 >>\u000a<<set act_play = 6 >>\u000a\u000a* [[Start Game|Start Game]]
-p81
+p85
 sg21
 VStart
-p82
+p86
 sg23
 g24
 ((I2017
@@ -243,12 +256,12 @@ I56
 I6
 I64
 I0
-tp83
-(dp84
-tp85
-Rp86
+tp87
+(dp88
+tp89
+Rp90
 sg29
-(lp87
+(lp91
 sg31
 g24
 ((I2017
@@ -260,65 +273,78 @@ I6
 I6
 I64
 I0
-tp88
-(dp89
-tp90
-Rp91
-sbsa(dp92
+tp92
+(dp93
+tp94
+Rp95
+sbsa(dp96
 g12
 I00
 sg13
-(lp93
-I10
-aI140
-asg15
-(itiddlywiki
-Tiddler
-p94
-(dp95
-g19
-VI'm out running again, when the sporty girl catches up to me.\u000aSporty Girl: Still at it?\u000aSporty Girl: Well, keep up the good work. One day you'll be as fast as me!\u000aSporty Girl: Well, maybe.\u000a\u000a\u000aToday, however, I'm not about to let this stand unchallenged.\u000a\u000aI break out into a run, and for the first time ever, I keep up with her.\u000a\u000aWe both run, neck and neck, me keeping up with her.\u000a\u000aFinally, she starts slowing down, and we come to a stop together.\u000aSporty Girl: Not bad.\u000a\u000aShe pauses to catch her breath.\u000aSporty Girl: You've been practicing, and it really shows.\u000aSporty Girl: You've finally become fast enough to run with me.\u000a\u000aI nod, accepting her praise.\u000aSporty Girl: We should do this more often... it's better to run with someone else, to keep the challenge up.\u000a\u000aI nod again.\u000aSporty Girl: Well, shall we go?\u000a\u000aI nod a third time, and we take off, running side by side.\u000a<<set strength = strength + 10 >>\u000a\u000a<<return>>
-p96
-sg21
-Vcaughtme
-p97
-sg23
-g24
-((I2017
-I3
-I5
-I18
-I57
-I6
-I6
-I64
-I0
-tp98
-(dp99
-tp100
-Rp101
-sg29
-(lp102
-sg31
-g101
-sbsa(dp103
-g12
-I00
-sg13
-(lp104
-I615
+(lp97
+I659
 aI879
 asg15
 (itiddlywiki
 Tiddler
-p105
-(dp106
+p98
+(dp99
+g19
+VI'm out running again, when the sporty girl catches up to me.\u000a<<pause>>\u000a\u000aSporty Girl: Still at it?\u000a<<pause>>\u000a\u000aSporty Girl: Well, keep up the good work. One day you'll be as fast as me!\u000a<<pause>>\u000a\u000aSporty Girl: Well, maybe.\u000a<<pause>>\u000a\u000a\u000aToday, however, I'm not about to let this stand unchallenged.\u000a<<pause>>\u000a\u000aI break out into a run, and for the first time ever, I keep up with her.\u000a<<pause>>\u000a\u000aWe both run, neck and neck, me keeping up with her.\u000a<<pause>>\u000a\u000aFinally, she starts slowing down, and we come to a stop together.\u000a<<pause>>\u000a\u000aSporty Girl: Not bad.\u000a<<pause>>\u000a\u000aShe pauses to catch her breath.\u000a<<pause>>\u000a\u000aSporty Girl: You've been practicing, and it really shows.\u000a<<pause>>\u000a\u000aSporty Girl: You've finally become fast enough to run with me.\u000a<<pause>>\u000a\u000aI nod, accepting her praise.\u000a<<pause>>\u000a\u000aSporty Girl: We should do this more often... it's better to run with someone else, to keep the challenge up.\u000a<<pause>>\u000a\u000aI nod again.\u000a<<pause>>\u000a\u000aSporty Girl: Well, shall we go?\u000a<<pause>>\u000a\u000aI nod a third time, and we take off, running side by side.\u000a<<pause>>\u000a\u000a<<set strength = strength + 10 >>\u000a<<set saw_caughtme = true>>\u000a\u000a<<return>>
+p100
+sg21
+Vcaughtme
+p101
+sg23
+g24
+((I2017
+I3
+I6
+I21
+I33
+I30
+I0
+I65
+I0
+tp102
+(dp103
+tp104
+Rp105
+sg29
+(lp106
+sg31
+g24
+((I2017
+I3
+I5
+I18
+I57
+I6
+I6
+I64
+I0
+tp107
+(dp108
+tp109
+Rp110
+sbsa(dp111
+g12
+I00
+sg13
+(lp112
+I463
+aI878
+asg15
+(itiddlywiki
+Tiddler
+p113
+(dp114
 g19
 VI head to the library, to get some studying done.\u000a<<pause>>\u000a\u000aThe glasses girl is there, and smiles at me for a second before turning back to her book.\u000a<<pause>>\u000a\u000aI decide not to disturb her, and instead start reading my own book.\u000a<<pause>>\u000a\u000a<<set intelligence = intelligence + 10 >>\u000a\u000a<<return>>
-p107
+p115
 sg21
 Vgg_smiling
-p108
+p116
 sg23
 g24
 ((I2017
@@ -330,12 +356,12 @@ I29
 I6
 I64
 I0
-tp109
-(dp110
-tp111
-Rp112
+tp117
+(dp118
+tp119
+Rp120
 sg29
-(lp113
+(lp121
 sg31
 g24
 ((I2017
@@ -347,28 +373,28 @@ I6
 I6
 I64
 I0
-tp114
-(dp115
-tp116
-Rp117
-sbsa(dp118
+tp122
+(dp123
+tp124
+Rp125
+sbsa(dp126
 g12
 I00
 sg13
-(lp119
-I698
-aI489
+(lp127
+I568
+aI479
 asg15
 (itiddlywiki
 Tiddler
-p120
-(dp121
+p128
+(dp129
 g19
 VI run to school, and make it to my seat just as the bell signalling the start of class rings.\u000a<<pause>>\u000a\u000aTeacher: Before we start, I have an announcement to make.\u000aTeacher: We will have two new students joining us. Girls, come on in.\u000a<<pause>>\u000a\u000aTwo girls walk in, and stand in front of the class.\u000a<<pause>>\u000a\u000aThey're twins.\u000a<<pause>>\u000a\u000aIdentical twins.\u000a<<pause>>\u000a\u000aIdentical black hair, and the same pretty face.\u000a<<pause>>\u000a\u000aDespite that, it's still fairly easy to tell them apart.\u000a<<pause>>\u000a\u000aThe one on the left is wearing glasses.\u000a<<pause>>\u000a\u000aNot too thick, but enough to let me know she probably reads alot of books.\u000a<<pause>>\u000a\u000aIf I look a little closely, I can find another difference.\u000a<<pause>>\u000a\u000aThe one on the right probably exercises a bit more.\u000a<<pause>>\u000a\u000aI can tell by the muscle tone in her legs.\u000a<<pause>>\u000a\u000aI realize that I'm staring at her legs, and quickly look up.\u000a<<pause>>\u000a\u000aSuddenly, I realize that she's been talking for all this town.\u000a<<pause>>\u000a\u000aSporty Girl: ... to this town. And we hope to be friends with all of you.\u000a<<pause>>\u000a\u000aSporty Girl: Well, that's about it. Sis, do you have anything to say?\u000a<<pause>>\u000a\u000aThe girl with glasses pauses for a second, and then quickly says:\u000a<<pause>>\u000a\u000aGlasses Girl: It's good to meet you all.\u000a<<pause>>\u000a\u000aShe stops, and goes back to not saying anything.\u000a<<pause>>\u000a\u000aTeacher: Well, if that's all, you can take your seats and we can start the class.\u000a<<pause>>\u000a\u000aThey do, and our teacher begins his lecture.\u000a<<pause>>\u000a\u000aI don't think anyone pays much attention to it, however.\u000a<<pause>>\u000a\u000a<<set saw_introduction = true>>\u000a\u000a<<return>>
-p122
+p130
 sg21
 Vintroduction
-p123
+p131
 sg23
 g24
 ((I2017
@@ -380,12 +406,12 @@ I12
 I6
 I64
 I0
-tp124
-(dp125
-tp126
-Rp127
+tp132
+(dp133
+tp134
+Rp135
 sg29
-(lp128
+(lp136
 sg31
 g24
 ((I2017
@@ -397,28 +423,28 @@ I6
 I6
 I64
 I0
-tp129
-(dp130
-tp131
-Rp132
-sbsa(dp133
+tp137
+(dp138
+tp139
+Rp140
+sbsa(dp141
 g12
 I00
 sg13
-(lp134
+(lp142
 I1096
 aI458
 asg15
 (itiddlywiki
 Tiddler
-p135
-(dp136
+p143
+(dp144
 g19
 V<<set day = day + 1 >>\u000a\u000aIt's day&nbsp;<<print day >>.\u000aStrength: <<print strength >>.\u000aIntelligence: <<print intelligence >>.\u000a<<pause>>\u000a\u000a<<set morning_act = 0 >>\u000a<<set afternoon_act = 0 >>\u000a<<set evening_act = 0 >>\u000a\u000aWhat should I do today?\u000a<<pause>>\u000a\u000a<<call choose_morning>>\u000a<<call choose_afternoon>>\u000a<<call choose_evening>>\u000a\u000a<<call morning>>\u000a<<call afternoon>>\u000a<<call evening>>\u000a\u000a*[[Continue|night]]
-p137
+p145
 sg21
 Vday
-p138
+p146
 sg23
 g24
 ((I2017
@@ -430,12 +456,12 @@ I36
 I6
 I64
 I0
-tp139
-(dp140
-tp141
-Rp142
+tp147
+(dp148
+tp149
+Rp150
 sg29
-(lp143
+(lp151
 sg31
 g24
 ((I2017
@@ -447,28 +473,28 @@ I6
 I6
 I64
 I0
-tp144
-(dp145
-tp146
-Rp147
-sbsa(dp148
+tp152
+(dp153
+tp154
+Rp155
+sbsa(dp156
 g12
 I00
 sg13
-(lp149
-I617
-aI753
+(lp157
+I465
+aI747
 asg15
 (itiddlywiki
 Tiddler
-p150
-(dp151
+p158
+(dp159
 g19
 VI head to the library, to get some studying done.\u000a<<pause>>\u000a\u000aThe glasses girl is there, but she's busy reading a book.\u000a<<pause>>\u000a\u000aI decide not to disturb her, and instead start reading my own book.\u000a<<pause>>\u000a\u000aSuddenly, I feel a tap on my shoulder.\u000a<<pause>>\u000a\u000aI look up, and see the glasses girl standing right next to me.\u000a<<pause>>\u000a\u000aGlasses Girl: Excuse me, but can I borrow your pen?\u000a<<pause>>\u000a\u000aGlasses Girl: Mine ran out of ink.\u000a<<pause>>\u000a\u000aI dig through my bag, to find the pen I had stashed there.\u000a<<pause>>\u000a\u000aWhile I'm looking, I point out that she seems to come to the library alot.\u000a<<pause>>\u000a\u000aGlasses Girl: Hm... I guess you're right.\u000a<<pause>>\u000a\u000aGlasses Girl: There's so much stuff here, and I want to know about it all.\u000a<<pause>>\u000a\u000aGlasses Girl: Surely, you must feel the same way, as you're here almost as much as I am.\u000a<<pause>>\u000a\u000aI don't have the heart to tell her that I'm only here to study so that I don't fail out.\u000a<<pause>>\u000a\u000aMy hand brushes the pen, and I quickly pull it out and give it to her.\u000a<<pause>>\u000a\u000aGlasses Girl: Thank you.\u000a<<pause>>\u000a\u000aShe says, and she goes back to studying.\u000a<<pause>>\u000a\u000a<<set saw_borrow_pen = true>>\u000a\u000a<<return>>
-p152
+p160
 sg21
 Vborrow_pen
-p153
+p161
 sg23
 g24
 ((I2017
@@ -480,12 +506,12 @@ I0
 I6
 I64
 I0
-tp154
-(dp155
-tp156
-Rp157
+tp162
+(dp163
+tp164
+Rp165
 sg29
-(lp158
+(lp166
 sg31
 g24
 ((I2017
@@ -497,32 +523,49 @@ I6
 I6
 I64
 I0
-tp159
-(dp160
-tp161
-Rp162
-sbsa(dp163
+tp167
+(dp168
+tp169
+Rp170
+sbsa(dp171
 g12
 I00
 sg13
-(lp164
-I10
-aI280
+(lp172
+I659
+aI750
 asg15
 (itiddlywiki
 Tiddler
-p165
-(dp166
+p173
+(dp174
 g19
-VI'm out running again, when the sporty girl catches up to me.\u000aSporty Girl: Still at it?\u000aSporty Girl: Well, keep up the good work. One day you'll be as fast as me!\u000aSporty Girl: Well, maybe.\u000a\u000aShe pulls out past me, and disappears into the distance. One day I'll catch up to her.\u000a<<set strength = strength + 10 >>\u000a\u000a<<return>>
-p167
+VI'm out running again, when the sporty girl catches up to me.\u000a<<pause>>\u000a\u000aSporty Girl: Still at it?\u000a<<pause>>\u000a\u000aSporty Girl: Well, keep up the good work. One day you'll be as fast as me!\u000a<<pause>>\u000a\u000aSporty Girl: Well, maybe.\u000a<<pause>>\u000a\u000aShe pulls out past me, and disappears into the distance. One day I'll catch up to her.\u000a<<pause>>\u000a\u000a<<set strength = strength + 10 >>\u000a\u000a<<return>>
+p175
 sg21
 Vcantcatchme
-p168
+p176
 sg23
 g24
 ((I2017
 I3
+I6
+I21
+I29
+I9
+I0
+I65
+I0
+tp177
+(dp178
+tp179
+Rp180
+sg29
+(lp181
+sg31
+g24
+((I2017
+I3
 I5
 I18
 I57
@@ -530,32 +573,28 @@ I6
 I6
 I64
 I0
-tp169
-(dp170
-tp171
-Rp172
-sg29
-(lp173
-sg31
-g172
-sbsa(dp174
+tp182
+(dp183
+tp184
+Rp185
+sbsa(dp186
 g12
 I00
 sg13
-(lp175
+(lp187
 I1182
 aI1101
 asg15
 (itiddlywiki
 Tiddler
-p176
-(dp177
+p188
+(dp189
 g19
 VI decide to go out for a run through the town, to keep myself in shape.\u000a\u000a<<set strength = strength + 10 >>\u000a<<pause>>\u000a\u000a<<return>>
-p178
+p190
 sg21
 Vexercise
-p179
+p191
 sg23
 g24
 ((I2017
@@ -567,12 +606,12 @@ I43
 I6
 I64
 I0
-tp180
-(dp181
-tp182
-Rp183
+tp192
+(dp193
+tp194
+Rp195
 sg29
-(lp184
+(lp196
 sg31
 g24
 ((I2017
@@ -584,45 +623,45 @@ I6
 I6
 I64
 I0
-tp185
-(dp186
-tp187
-Rp188
-sbsa(dp189
+tp197
+(dp198
+tp199
+Rp200
+sbsa(dp201
 g12
 I00
 sg13
-(lp190
+(lp202
 I1093
 aI209
 asg15
 (itiddlywiki
 Tiddler
-p191
-(dp192
+p203
+(dp204
 g19
-V<<set day = 0 >>\u000a\u000a<<set saw_introduction = false>>\u000a<<set saw_borrow_pen = false>>\u000a<<set saw_bookslide = false>>\u000a<<set saw_cookies = false>>\u000a\u000aIn case you're just tuning in, here's the story of my life to date.\u000a<<pause>>\u000a\u000aI'm a guy in the second year of high school.\u000a<<pause>>\u000a\u000aI'm not good at sports or school or even something as simple as remembering peoples names.\u000a<<pause>>\u000a\u000aIn short, I am your usual random loser guy.\u000a<<pause>>\u000a\u000aAnd this is my story...\u000a<<pause>>\u000a\u000a<<set strength = 10 >>\u000a<<set intelligence = 10 >>\u000a\u000a* [[Continue|day]]
-p193
+V<<set day = 0 >>\u000a\u000a<<set saw_introduction = false>>\u000a<<set saw_borrow_pen = false>>\u000a<<set saw_bookslide = false>>\u000a<<set saw_cookies = false>>\u000a\u000a<<set saw_catchme = false>>\u000a<<set saw_caughtme = false>>\u000a<<set saw_pothole = false>>\u000a<<set saw_dontsee = false>>\u000a\u000aIn case you're just tuning in, here's the story of my life to date.\u000a<<pause>>\u000a\u000aI'm a guy in the second year of high school.\u000a<<pause>>\u000a\u000aI'm not good at sports or school or even something as simple as remembering peoples names.\u000a<<pause>>\u000a\u000aIn short, I am your usual random loser guy.\u000a<<pause>>\u000a\u000aAnd this is my story...\u000a<<pause>>\u000a\u000a<<set strength = 10 >>\u000a<<set intelligence = 10 >>\u000a\u000a* [[Continue|day]]
+p205
 sg21
 VStart Game
-p194
+p206
 sg23
 g24
 ((I2017
 I3
-I5
-I23
-I15
-I32
 I6
-I64
+I21
+I43
+I21
 I0
-tp195
-(dp196
-tp197
-Rp198
+I65
+I0
+tp207
+(dp208
+tp209
+Rp210
 sg29
-(lp199
+(lp211
 sg31
 g24
 ((I2017
@@ -634,28 +673,28 @@ I6
 I6
 I64
 I0
-tp200
-(dp201
-tp202
-Rp203
-sbsa(dp204
+tp212
+(dp213
+tp214
+Rp215
+sbsa(dp216
 g12
 I00
 sg13
-(lp205
+(lp217
 I1048
 aI1227
 asg15
 (itiddlywiki
 Tiddler
-p206
-(dp207
+p218
+(dp219
 g19
 VI pop a DVD into my video game console, and spend the evening rolling small cities up into balls.\u000a	 \u000a<<set strength = strength - 10 >>\u000a<<pause>>\u000a\u000a<<return>>
-p208
+p220
 sg21
 Vplay
-p209
+p221
 sg23
 g24
 ((I2017
@@ -667,12 +706,12 @@ I13
 I6
 I64
 I0
-tp210
-(dp211
-tp212
-Rp213
+tp222
+(dp223
+tp224
+Rp225
 sg29
-(lp214
+(lp226
 sg31
 g24
 ((I2017
@@ -684,28 +723,28 @@ I6
 I6
 I64
 I0
-tp215
-(dp216
-tp217
-Rp218
-sbsa(dp219
+tp227
+(dp228
+tp229
+Rp230
+sbsa(dp231
 g12
 I00
 sg13
-(lp220
+(lp232
 I1628
 aI814
 asg15
 (itiddlywiki
 Tiddler
-p221
-(dp222
+p233
+(dp234
 g19
 VEvening\u000a<<pause>>\u000a<<set act = evening_act >>\u000a<<call events_run_period>>\u000a<<return>>
-p223
+p235
 sg21
 Vevening
-p224
+p236
 sg23
 g24
 ((I2017
@@ -717,12 +756,12 @@ I2
 I6
 I64
 I0
-tp225
-(dp226
-tp227
-Rp228
+tp237
+(dp238
+tp239
+Rp240
 sg29
-(lp229
+(lp241
 sg31
 g24
 ((I2017
@@ -734,29 +773,46 @@ I6
 I6
 I64
 I0
-tp230
-(dp231
-tp232
-Rp233
-sbsa(dp234
+tp242
+(dp243
+tp244
+Rp245
+sbsa(dp246
 g12
 I00
 sg13
-(lp235
-I10
-aI420
+(lp247
+I653
+aI1548
 asg15
 (itiddlywiki
 Tiddler
-p236
-(dp237
+p248
+(dp249
 g19
-VI once again barely make it to class on time.\u000a\u000aI sit down, at my desk, and put some of my books into it.\u000a\u000aMy hand brushes a folded sheet of paper, one I didn't remember putting in there.\u000a\u000aIt's a girl's handwriting... 'Meet me on the roof at lunch.'\u000a\u000aThat's all it says... no signature or anything.\u000a\u000aLunch is a few hours away, but the time passes like a blur.\u000a\u000aIt's all I can do to avoid racing up to the roof... but I give it some time anyway.\u000a\u000aIt wouldn't make sense for me to get there first.\u000a\u000aI let two minutes elapse before leaving the classroom, and then slowly walk the flights of stairs up to the roof.\u000a\u000aStanding there, I find the sporty girl.\u000a\u000aShe's leaning on a crutch.\u000a\u000aI look at it for a second, and she notices that.\u000aSporty Girl: I went to the doctor, and he gave me this.\u000aSporty Girl: Looks like we won't be running together for a while.\u000a\u000aI nod.\u000aSporty Girl: And that's why I asked you here.\u000aSporty Girl: I couldn't stand the though of not seeing you for a few weeks.\u000a\u000aI search my feelings, and realize I feel the same way.\u000aSporty Girl: So I thought...\u000a\u000aShe doesn't say it... she doesn't need to.\u000a\u000aWe both know how we feel about each other.\u000a\u000aAnd with that, we went from being running partners to partners in\u000a     a deeper sense.\u000a\u000aNow if I only knew her name...\u000a\u000a<<pause>>\u000aEnding 2.\u000a[[Restart|Start]]
-p238
+VI once again barely make it to class on time.\u000a<<pause>>\u000a\u000aI sit down, at my desk, and put some of my books into it.\u000a<<pause>>\u000a\u000aMy hand brushes a folded sheet of paper, one I didn't remember putting in there.\u000a<<pause>>\u000a\u000aIt's a girl's handwriting... 'Meet me on the roof at lunch.'\u000a<<pause>>\u000a\u000aThat's all it says... no signature or anything.\u000a<<pause>>\u000a\u000aLunch is a few hours away, but the time passes like a blur.\u000a<<pause>>\u000a\u000aIt's all I can do to avoid racing up to the roof... but I give it some time anyway.\u000a<<pause>>\u000a\u000aIt wouldn't make sense for me to get there first.\u000a<<pause>>\u000a\u000aI let two minutes elapse before leaving the classroom, and then slowly walk the flights of stairs up to the roof.\u000a<<pause>>\u000a\u000aStanding there, I find the sporty girl.\u000a<<pause>>\u000a\u000aShe's leaning on a crutch.\u000a<<pause>>\u000a\u000aI look at it for a second, and she notices that.\u000a<<pause>>\u000a\u000aSporty Girl: I went to the doctor, and he gave me this.\u000a<<pause>>\u000a\u000aSporty Girl: Looks like we won't be running together for a while.\u000a<<pause>>\u000a\u000aI nod.\u000a<<pause>>\u000a\u000aSporty Girl: And that's why I asked you here.\u000a<<pause>>\u000a\u000aSporty Girl: I couldn't stand the though of not seeing you for a few weeks.\u000a<<pause>>\u000a\u000aI search my feelings, and realize I feel the same way.\u000a<<pause>>\u000a\u000aSporty Girl: So I thought...\u000a<<pause>>\u000a\u000aShe doesn't say it... she doesn't need to.\u000a<<pause>>\u000a\u000aWe both know how we feel about each other.\u000a<<pause>>\u000a\u000aAnd with that, we went from being running partners to partners in a deeper sense.\u000a<<pause>>\u000a\u000aNow if I only knew her name...\u000a<<pause>>\u000a\u000aEnding 2.\u000a[[Restart|Start]]
+p250
 sg21
 Vsg_confess
-p239
+p251
 sg23
+g24
+((I2017
+I3
+I6
+I21
+I45
+I50
+I0
+I65
+I0
+tp252
+(dp253
+tp254
+Rp255
+sg29
+(lp256
+sg31
 g24
 ((I2017
 I3
@@ -767,33 +823,46 @@ I6
 I6
 I64
 I0
-tp240
-(dp241
-tp242
-Rp243
-sg29
-(lp244
-sg31
-g243
-sbsa(dp245
+tp257
+(dp258
+tp259
+Rp260
+sbsa(dp261
 g12
 I00
 sg13
-(lp246
-I150
-aI420
+(lp262
+I664
+aI615
 asg15
 (itiddlywiki
 Tiddler
-p247
-(dp248
+p263
+(dp264
 g19
-VI decide to go out for a run, to keep myself in shape.\u000a\u000aAs I'm running through the town, I see a girl.\u000a\u000aShe's one of the twins who transferred into my class.\u000a\u000aShe waves, and comes over to me.\u000aSporty Girl: I didn't know you were a runner.\u000a\u000aI point out that I'm not really a runner... I just run a little bit at a time.\u000a\u000aI ask her if she wants to run with me for a while.\u000aSporty Girl: As if! You couldn't keep up with me.\u000a\u000aI point out that I probably can.\u000aSporty Girl: Well, let's see.\u000a\u000aWe set off running, but she quickly pulls past me.\u000aSporty Girl: See? Well, maybe we can try it again when you're a bit faster.\u000aSporty Girl: Until then, later.\u000a\u000aEven though I'm jogging, she pulls away as if it is nothing.\u000a\u000a<<return>>
-p249
+VI decide to go out for a run, to keep myself in shape.\u000a<<pause>>\u000a\u000aAs I'm running through the town, I see a girl.\u000a<<pause>>\u000a\u000aShe's one of the twins who transferred into my class.\u000a<<pause>>\u000a\u000aShe waves, and comes over to me.\u000a<<pause>>\u000a\u000aSporty Girl: I didn't know you were a runner.\u000a<<pause>>\u000a\u000aI point out that I'm not really a runner... I just run a little bit at a time.\u000a<<pause>>\u000a\u000aI ask her if she wants to run with me for a while.\u000a<<pause>>\u000a\u000aSporty Girl: As if! You couldn't keep up with me.\u000a<<pause>>\u000a\u000aI point out that I probably can.\u000a<<pause>>\u000a\u000aSporty Girl: Well, let's see.\u000a<<pause>>\u000a\u000aWe set off running, but she quickly pulls past me.\u000a<<pause>>\u000a\u000aSporty Girl: See? Well, maybe we can try it again when you're a bit faster.\u000a<<pause>>\u000a\u000aSporty Girl: Until then, later.\u000a<<pause>>\u000a\u000aEven though I'm jogging, she pulls away as if it is nothing.\u000a<<pause>>\u000a\u000a<<set saw_catchme = true>>\u000a\u000a<<return>>
+p265
 sg21
 Vcatchme
-p250
+p266
 sg23
+g24
+((I2017
+I3
+I6
+I21
+I26
+I4
+I0
+I65
+I0
+tp267
+(dp268
+tp269
+Rp270
+sg29
+(lp271
+sg31
 g24
 ((I2017
 I3
@@ -804,32 +873,28 @@ I6
 I6
 I64
 I0
-tp251
-(dp252
-tp253
-Rp254
-sg29
-(lp255
-sg31
-g254
-sbsa(dp256
+tp272
+(dp273
+tp274
+Rp275
+sbsa(dp276
 g12
 I00
 sg13
-(lp257
+(lp277
 I1052
 aI1102
 asg15
 (itiddlywiki
 Tiddler
-p258
-(dp259
+p278
+(dp279
 g19
 VI spend the afternoon hanging out with my friends, killing some time.\u000a<<pause>>\u000a\u000a<<return>>
-p260
+p280
 sg21
 Vhang
-p261
+p281
 sg23
 g24
 ((I2017
@@ -841,12 +906,12 @@ I6
 I6
 I64
 I0
-tp262
-(dp263
-tp264
-Rp265
+tp282
+(dp283
+tp284
+Rp285
 sg29
-(lp266
+(lp286
 sg31
 g24
 ((I2017
@@ -858,28 +923,28 @@ I6
 I6
 I64
 I0
-tp267
-(dp268
-tp269
-Rp270
-sbsa(dp271
+tp287
+(dp288
+tp289
+Rp290
+sbsa(dp291
 g12
 I00
 sg13
-(lp272
+(lp292
 I1052
 aI973
 asg15
 (itiddlywiki
 Tiddler
-p273
-(dp274
+p293
+(dp294
 g19
 VI cut class, and spend the morning goofing off instead.\u000a<<set intelligence = intelligence - 10 >>\u000a<<pause>>\u000a\u000a<<return>>
-p275
+p295
 sg21
 Vcut1
-p276
+p296
 sg23
 g24
 ((I2017
@@ -891,12 +956,12 @@ I57
 I6
 I64
 I0
-tp277
-(dp278
-tp279
-Rp280
+tp297
+(dp298
+tp299
+Rp300
 sg29
-(lp281
+(lp301
 sg31
 g24
 ((I2017
@@ -908,28 +973,28 @@ I6
 I6
 I64
 I0
-tp282
-(dp283
-tp284
-Rp285
-sbsa(dp286
+tp302
+(dp303
+tp304
+Rp305
+sbsa(dp306
 g12
 I00
 sg13
-(lp287
+(lp307
 I1183
 aI975
 asg15
 (itiddlywiki
 Tiddler
-p288
-(dp289
+p308
+(dp309
 g19
 VI cut class, and spend the morning playing computer games.\u000a<<pause>>\u000a\u000a<<return>>
-p290
+p310
 sg21
 Vcut2
-p291
+p311
 sg23
 g24
 ((I2017
@@ -941,12 +1006,12 @@ I44
 I6
 I64
 I0
-tp292
-(dp293
-tp294
-Rp295
+tp312
+(dp313
+tp314
+Rp315
 sg29
-(lp296
+(lp316
 sg31
 g24
 ((I2017
@@ -958,28 +1023,28 @@ I6
 I6
 I64
 I0
-tp297
-(dp298
-tp299
-Rp300
-sbsa(dp301
+tp317
+(dp318
+tp319
+Rp320
+sbsa(dp321
 g12
 I00
 sg13
-(lp302
+(lp322
 I921
 aI973
 asg15
 (itiddlywiki
 Tiddler
-p303
-(dp304
+p323
+(dp324
 g19
 VI make it to class just in time, and proceed to listen to the teacher droning on about a wide range of topics, none of which are remotely interesting.\u000a<<pause>>\u000a\u000a<<return>>
-p305
+p325
 sg21
 Vclass
-p306
+p326
 sg23
 g24
 ((I2017
@@ -991,12 +1056,12 @@ I27
 I6
 I64
 I0
-tp307
-(dp308
-tp309
-Rp310
+tp327
+(dp328
+tp329
+Rp330
 sg29
-(lp311
+(lp331
 sg31
 g24
 ((I2017
@@ -1008,32 +1073,49 @@ I6
 I6
 I64
 I0
-tp312
-(dp313
-tp314
-Rp315
-sbsa(dp316
+tp332
+(dp333
+tp334
+Rp335
+sbsa(dp336
 g12
 I00
 sg13
-(lp317
-I150
-aI560
+(lp337
+I656
+aI1146
 asg15
 (itiddlywiki
 Tiddler
-p318
-(dp319
+p338
+(dp339
 g19
-VI start running, and meet up with the sporty girl as she passes the street in front of my house.\u000a\u000aI try to keep up with her, but she pulls away from me.\u000a\u000aWhen she's a block away, she slows down and lets me catch up.\u000aSporty Girl: It's your own fault... this is what you get for not practicing.\u000a\u000aShe's right, of course, and I redouble my efforts to try to keep up with her.\u000a<<set strength = strength + 10 >>\u000a\u000a<<return>>
-p320
+VI start running, and meet up with the sporty girl as she passes the street in front of my house.\u000a<<pause>>\u000a\u000aI try to keep up with her, but she pulls away from me.\u000a<<pause>>\u000a\u000aWhen she's a block away, she slows down and lets me catch up.\u000a<<pause>>\u000a\u000aSporty Girl: It's your own fault... this is what you get for not practicing.\u000a<<pause>>\u000a\u000aShe's right, of course, and I redouble my efforts to try to keep up with her.\u000a<<pause>>\u000a\u000a<<set strength = strength + 10 >>\u000a\u000a<<return>>
+p340
 sg21
 Vapart
-p321
+p341
 sg23
 g24
 ((I2017
 I3
+I6
+I21
+I37
+I43
+I0
+I65
+I0
+tp342
+(dp343
+tp344
+Rp345
+sg29
+(lp346
+sg31
+g24
+((I2017
+I3
 I5
 I18
 I57
@@ -1041,32 +1123,28 @@ I6
 I6
 I64
 I0
-tp322
-(dp323
-tp324
-Rp325
-sg29
-(lp326
-sg31
-g325
-sbsa(dp327
+tp347
+(dp348
+tp349
+Rp350
+sbsa(dp351
 g12
 I00
 sg13
-(lp328
-I613
-aI1262
+(lp352
+I458
+aI1269
 asg15
 (itiddlywiki
 Tiddler
-p329
-(dp330
+p353
+(dp354
 g19
 VI once again barely make it to class on time.\u000a<<pause>>\u000a\u000aI sit down, at my desk, and put some of my books into it.\u000a<<pause>>\u000a\u000aMy hand brushes a folded sheet of paper, one I didn't remember putting in there.\u000a<<pause>>\u000a\u000aIt's a girl's handwriting... 'Meet me on the roof at lunch.'\u000a<<pause>>\u000a\u000aThat's all it says... no signature or anything.\u000a<<pause>>\u000a\u000aLunch is a few hours away, but the time passes like a blur.\u000a<<pause>>\u000a\u000aIt's all I can do to avoid racing up to the roof... but I give it some time anyway.\u000a<<pause>>\u000a\u000aIt wouldn't make sense for me to get there first.\u000a<<pause>>\u000a\u000aI let two minutes elapse before leaving the classroom, and then slowly walk the flights of stairs up to the roof.\u000a<<pause>>\u000a\u000aStanding there, I find the glasses girl.\u000a<<pause>>\u000a\u000aShe's holding what looks like a homemade lunch... big enough for two.\u000a<<pause>>\u000a\u000aI look at it, then her, then remember what I had said after she made me the cookies.\u000a<<pause>>\u000a\u000aFinally, I ask her... 'Does this mean?'\u000a<<pause>>\u000a\u000aShe nods. It's all the confirmation I need.\u000a<<pause>>\u000a\u000aI sit down next to my new girlfriend... and together we start eating her lunch.\u000a<<pause>>\u000a\u000aI'm probably the happiest guy in the world.\u000a<<pause>>\u000a\u000aBut I still have to find out her name.\u000a<<pause>>\u000a\u000aEnding 1.\u000a\u000a* [[Restart|Start]]
-p331
+p355
 sg21
 Vgg_confess
-p332
+p356
 sg23
 g24
 ((I2017
@@ -1078,12 +1156,12 @@ I9
 I6
 I64
 I0
-tp333
-(dp334
-tp335
-Rp336
+tp357
+(dp358
+tp359
+Rp360
 sg29
-(lp337
+(lp361
 sg31
 g24
 ((I2017
@@ -1095,28 +1173,28 @@ I6
 I6
 I64
 I0
-tp338
-(dp339
-tp340
-Rp341
-sbsa(dp342
+tp362
+(dp363
+tp364
+Rp365
+sbsa(dp366
 g12
 I00
 sg13
-(lp343
-I618
-aI622
+(lp367
+I467
+aI613
 asg15
 (itiddlywiki
 Tiddler
-p344
-(dp345
+p368
+(dp369
 g19
 VI head to the library, to get some studying done.\u000a<<pause>>\u000a\u000aThe glasses girl is there, but she's busy reading a book, taking notes as she does so.\u000a<<pause>>\u000a\u000aI decide not to disturb her, and instead start reading my own book.\u000a<<pause>>\u000a\u000a<<set intelligence = intelligence + 10 >>\u000a\u000a<<return>>
-p346
+p370
 sg21
 Vgg_studying
-p347
+p371
 sg23
 g24
 ((I2017
@@ -1128,12 +1206,12 @@ I57
 I6
 I64
 I0
-tp348
-(dp349
-tp350
-Rp351
+tp372
+(dp373
+tp374
+Rp375
 sg29
-(lp352
+(lp376
 sg31
 g24
 ((I2017
@@ -1145,28 +1223,28 @@ I6
 I6
 I64
 I0
-tp353
-(dp354
-tp355
-Rp356
-sbsa(dp357
+tp377
+(dp378
+tp379
+Rp380
+sbsa(dp381
 g12
 I00
 sg13
-(lp358
+(lp382
 I919
 aI1102
 asg15
 (itiddlywiki
 Tiddler
-p359
-(dp360
+p383
+(dp384
 g19
 VI head on down to the library, and start reading about the topics I should have been reading about in class.\u000a<<set intelligence = intelligence + 10 >>\u000a<<pause>>\u000a\u000a<<return>>
-p361
+p385
 sg21
 Vstudy
-p362
+p386
 sg23
 g24
 ((I2017
@@ -1178,12 +1256,12 @@ I51
 I6
 I64
 I0
-tp363
-(dp364
-tp365
-Rp366
+tp387
+(dp388
+tp389
+Rp390
 sg29
-(lp367
+(lp391
 sg31
 g24
 ((I2017
@@ -1195,32 +1273,49 @@ I6
 I6
 I64
 I0
-tp368
-(dp369
-tp370
-Rp371
-sbsa(dp372
+tp392
+(dp393
+tp394
+Rp395
+sbsa(dp396
 g12
 I00
 sg13
-(lp373
-I10
-aI700
+(lp397
+I656
+aI1009
 asg15
 (itiddlywiki
 Tiddler
-p374
-(dp375
+p398
+(dp399
 g19
-VI start running, and meet up with the sporty girl as she passes the street in front of my house.\u000a\u000aShe's still better than me... she's been running for over a mile before reaching this point.\u000a\u000aStill, I can keep up with her for the rest of the run. And that's not bad.\u000a<<set strength = strength + 10 >>\u000a\u000a<<return>>
-p376
+VI start running, and meet up with the sporty girl as she passes the street in front of my house.\u000a<<pause>>\u000a\u000aShe's still better than me... she's been running for over a mile before reaching this point.\u000a<<pause>>\u000a\u000aStill, I can keep up with her for the rest of the run. And that's not bad.\u000a<<pause>>\u000a\u000a<<set strength = strength + 10 >>\u000a\u000a<<return>>
+p400
 sg21
 Vtogether
-p377
+p401
 sg23
 g24
 ((I2017
 I3
+I6
+I21
+I36
+I35
+I0
+I65
+I0
+tp402
+(dp403
+tp404
+Rp405
+sg29
+(lp406
+sg31
+g24
+((I2017
+I3
 I5
 I18
 I57
@@ -1228,32 +1323,28 @@ I6
 I6
 I64
 I0
-tp378
-(dp379
-tp380
-Rp381
-sg29
-(lp382
-sg31
-g381
-sbsa(dp383
+tp407
+(dp408
+tp409
+Rp410
+sbsa(dp411
 g12
 I00
 sg13
-(lp384
+(lp412
 I1369
 aI816
 asg15
 (itiddlywiki
 Tiddler
-p385
-(dp386
+p413
+(dp414
 g19
 VMorning\u000a<<pause>>\u000a<<set act = morning_act >>\u000a<<call events_run_period>>\u000a<<return>>
-p387
+p415
 sg21
 Vmorning
-p388
+p416
 sg23
 g24
 ((I2017
@@ -1265,12 +1356,12 @@ I9
 I6
 I64
 I0
-tp389
-(dp390
-tp391
-Rp392
+tp417
+(dp418
+tp419
+Rp420
 sg29
-(lp393
+(lp421
 sg31
 g24
 ((I2017
@@ -1282,32 +1373,49 @@ I6
 I6
 I64
 I0
-tp394
-(dp395
-tp396
-Rp397
-sbsa(dp398
+tp422
+(dp423
+tp424
+Rp425
+sbsa(dp426
 g12
 I00
 sg13
-(lp399
-I290
-aI700
+(lp427
+I572
+aI1708
 asg15
 (itiddlywiki
 Tiddler
-p400
-(dp401
+p428
+(dp429
 g19
-VI once again barely make it to class on time.\u000a\u000aI sit down, at my desk, and put some of my books into it.\u000a\u000aMy hand brushes a folded sheet of paper, then another.\u000a\u000aI take the first one out, and read it.\u000a\u000aIt's a girl's handwriting... 'Meet me on the roof at lunch.'\u000a\u000aThat's all it says... no signature or anything.\u000a\u000aI take a look at the second one, and it says the same thing.\u000a\u000aSure, the handwriting is a little different, but...\u000a\u000aLunch is a few hours away, but the time passes like a blur.\u000a\u000aIt's all I can do to avoid racing up to the roof... but I give it some time anyway.\u000a    \u000aI let two minutes elapse before leaving the classroom, and then slowly walk the flights of stairs up to the roof.\u000a\u000aStanding there are the twins.\u000a\u000aBoth of them.\u000a\u000aAs in, the two notes came from the two twins.\u000a\u000aI ask them what they are doing there, feigning ignorance.\u000a\u000aSporty Girl: Well, I invited you up here to confess to you...\u000aSporty Girl: ... and then I found out that my sister here was about to do the same thing.\u000aGlasses Girl: ...I was...\u000aSporty Girl: When we found out, we were quite shocked, but after comparing notes, we decide what we're going to do...\u000a\u000aI quickly run through the possibilities in my head.\u000a\u000aThe best cases involve them never talking to me again.\u000a\u000aThe worst cases involve me being thrown off the roof.\u000a\u000aBoth Girls: "We're going to share you!\u000a\u000aEh?\u000a\u000aThat wasn't something I considered.\u000a\u000aEach of the girls grabs onto one of my arms.\u000a\u000aI don't know what the future holds for us...\u000a\u000a... and I don't know if this will work out.\u000a\u000aBut I do know that one day I will work up the courage to find out their names.\u000a\u000a<<pause>>\u000aEnding 3.\u000a[[Restart|Start]]
-p402
+VI once again barely make it to class on time.\u000a<<pause>>\u000a\u000aI sit down, at my desk, and put some of my books into it.\u000a<<pause>>\u000a\u000aMy hand brushes a folded sheet of paper, then another.\u000a<<pause>>\u000a\u000aI take the first one out, and read it.\u000a<<pause>>\u000a\u000aIt's a girl's handwriting... 'Meet me on the roof at lunch.'\u000a<<pause>>\u000a\u000aThat's all it says... no signature or anything.\u000a<<pause>>\u000a\u000aI take a look at the second one, and it says the same thing.\u000a<<pause>>\u000a\u000aSure, the handwriting is a little different, but...\u000a<<pause>>\u000a\u000aLunch is a few hours away, but the time passes like a blur.\u000a<<pause>>\u000a\u000aIt's all I can do to avoid racing up to the roof... but I give it some time anyway.\u000a<<pause>>\u000a    \u000aI let two minutes elapse before leaving the classroom, and then slowly walk the flights of stairs up to the roof.\u000a<<pause>>\u000a\u000aStanding there are the twins.\u000a<<pause>>\u000a\u000aBoth of them.\u000a<<pause>>\u000a\u000aAs in, the two notes came from the two twins.\u000a<<pause>>\u000a\u000aI ask them what they are doing there, feigning ignorance.\u000a<<pause>>\u000a\u000aSporty Girl: Well, I invited you up here to confess to you...\u000a<<pause>>\u000a\u000aSporty Girl: ... and then I found out that my sister here was about to do the same thing.\u000a<<pause>>\u000a\u000aGlasses Girl: ...I was...\u000a<<pause>>\u000a\u000aSporty Girl: When we found out, we were quite shocked, but after comparing notes, we decide what we're going to do...\u000a<<pause>>\u000a\u000aI quickly run through the possibilities in my head.\u000a<<pause>>\u000a\u000aThe best cases involve them never talking to me again.\u000a<<pause>>\u000a\u000aThe worst cases involve me being thrown off the roof.\u000a<<pause>>\u000a\u000aBoth Girls: "We're going to share you!\u000a<<pause>>\u000a\u000aEh?\u000a<<pause>>\u000a\u000aThat wasn't something I considered.\u000a<<pause>>\u000a\u000aEach of the girls grabs onto one of my arms.\u000a<<pause>>\u000a\u000aI don't know what the future holds for us...\u000a<<pause>>\u000a\u000a... and I don't know if this will work out.\u000a<<pause>>\u000a\u000aBut I do know that one day I will work up the courage to find out their names.\u000a<<pause>>\u000a\u000aEnding 3.\u000a[[Restart|Start]]
+p430
 sg21
 Vboth_confess
-p403
+p431
 sg23
 g24
 ((I2017
 I3
+I6
+I21
+I48
+I9
+I0
+I65
+I0
+tp432
+(dp433
+tp434
+Rp435
+sg29
+(lp436
+sg31
+g24
+((I2017
+I3
 I5
 I18
 I57
@@ -1315,32 +1423,28 @@ I6
 I6
 I64
 I0
-tp404
-(dp405
-tp406
-Rp407
-sg29
-(lp408
-sg31
-g407
-sbsa(dp409
+tp437
+(dp438
+tp439
+Rp440
+sbsa(dp441
 g12
 I00
 sg13
-(lp410
+(lp442
 I1497
 aI816
 asg15
 (itiddlywiki
 Tiddler
-p411
-(dp412
+p443
+(dp444
 g19
 VAfternoon\u000a<<pause>>\u000a<<set act = afternoon_act >>\u000a<<call events_run_period>>\u000a<<return>>
-p413
+p445
 sg21
 Vafternoon
-p414
+p446
 sg23
 g24
 ((I2017
@@ -1352,12 +1456,12 @@ I42
 I6
 I64
 I0
-tp415
-(dp416
-tp417
-Rp418
+tp447
+(dp448
+tp449
+Rp450
 sg29
-(lp419
+(lp451
 sg31
 g24
 ((I2017
@@ -1369,28 +1473,28 @@ I6
 I6
 I64
 I0
-tp420
-(dp421
-tp422
-Rp423
-sbsa(dp424
+tp452
+(dp453
+tp454
+Rp455
+sbsa(dp456
 g12
 I00
 sg13
-(lp425
+(lp457
 I1087
 aI668
 asg15
 (itiddlywiki
 Tiddler
-p426
-(dp427
+p458
+(dp459
 g19
 VNight\u000a<<pause>>\u000a\u000aIt's getting late, so I decide to go to sleep.\u000a\u000a<<call events_end_day>>\u000a\u000a* [[Sleep|day]]
-p428
+p460
 sg21
 Vnight
-p429
+p461
 sg23
 g24
 ((I2017
@@ -1402,12 +1506,12 @@ I37
 I6
 I64
 I0
-tp430
-(dp431
-tp432
-Rp433
+tp462
+(dp463
+tp464
+Rp465
 sg29
-(lp434
+(lp466
 sg31
 g24
 ((I2017
@@ -1419,32 +1523,49 @@ I6
 I6
 I64
 I0
-tp435
-(dp436
-tp437
-Rp438
-sbsa(dp439
+tp467
+(dp468
+tp469
+Rp470
+sbsa(dp471
 g12
 I00
 sg13
-(lp440
-I10
-aI840
+(lp472
+I653
+aI1416
 asg15
 (itiddlywiki
 Tiddler
-p441
-(dp442
+p473
+(dp474
 g19
-VI go running again.\u000a\u000aBut this time, I don't see the sporty girl.\u000a\u000aI finish the course that we usually take, but it's not the same without her.\u000a\u000a<<return>>
-p443
+VI go running again.\u000a<<pause>>\u000a\u000aBut this time, I don't see the sporty girl.\u000a<<pause>>\u000a\u000aI finish the course that we usually take, but it's not the same without her.\u000a<<pause>>\u000a\u000a<<set saw_dontsee = true>>\u000a\u000a<<return>>
+p475
 sg21
 Vdontsee
-p444
+p476
 sg23
 g24
 ((I2017
 I3
+I6
+I21
+I43
+I51
+I0
+I65
+I0
+tp477
+(dp478
+tp479
+Rp480
+sg29
+(lp481
+sg31
+g24
+((I2017
+I3
 I5
 I18
 I57
@@ -1452,32 +1573,28 @@ I6
 I6
 I64
 I0
-tp445
-(dp446
-tp447
-Rp448
-sg29
-(lp449
-sg31
-g448
-sbsa(dp450
+tp482
+(dp483
+tp484
+Rp485
+sbsa(dp486
 g12
 I00
 sg13
-(lp451
+(lp487
 F1362.0
 aF24.0
 asg15
 (itiddlywiki
 Tiddler
-p452
-(dp453
+p488
+(dp489
 g19
 V* [[Morning - Attend Class|opt_class]]\u000a* [[Morning - Cut Class|opt_cut]]
-p454
+p490
 sg21
 Vchoose_morning
-p455
+p491
 sg23
 g24
 ((I2017
@@ -1489,12 +1606,12 @@ I22
 I6
 I64
 I0
-tp456
-(dp457
-tp458
-Rp459
+tp492
+(dp493
+tp494
+Rp495
 sg29
-(lp460
+(lp496
 sg31
 g24
 ((I2017
@@ -1506,28 +1623,28 @@ I2
 I6
 I64
 I0
-tp461
-(dp462
-tp463
-Rp464
-sbsa(dp465
+tp497
+(dp498
+tp499
+Rp500
+sbsa(dp501
 g12
 I00
 sg13
-(lp466
+(lp502
 F1601.0
 aF149.0
 asg15
 (itiddlywiki
 Tiddler
-p467
-(dp468
+p503
+(dp504
 g19
 V<<set morning_act = act_cut >>\u000a<<return>>\u000a
-p469
+p505
 sg21
 Vopt_cut
-p470
+p506
 sg23
 g24
 ((I2017
@@ -1539,12 +1656,12 @@ I46
 I6
 I64
 I0
-tp471
-(dp472
-tp473
-Rp474
+tp507
+(dp508
+tp509
+Rp510
 sg29
-(lp475
+(lp511
 sg31
 g24
 ((I2017
@@ -1556,28 +1673,28 @@ I58
 I6
 I64
 I0
-tp476
-(dp477
-tp478
-Rp479
-sbsa(dp480
+tp512
+(dp513
+tp514
+Rp515
+sbsa(dp516
 g12
 I00
 sg13
-(lp481
+(lp517
 F1602.0
 aF23.0
 asg15
 (itiddlywiki
 Tiddler
-p482
-(dp483
+p518
+(dp519
 g19
 V<<set morning_act = act_class >>\u000a<<return>>\u000a
-p484
+p520
 sg21
 Vopt_class
-p485
+p521
 sg23
 g24
 ((I2017
@@ -1589,12 +1706,12 @@ I51
 I6
 I64
 I0
-tp486
-(dp487
-tp488
-Rp489
+tp522
+(dp523
+tp524
+Rp525
 sg29
-(lp490
+(lp526
 sg31
 g24
 ((I2017
@@ -1606,28 +1723,28 @@ I5
 I6
 I64
 I0
-tp491
-(dp492
-tp493
-Rp494
-sbsa(dp495
+tp527
+(dp528
+tp529
+Rp530
+sbsa(dp531
 g12
 I00
 sg13
-(lp496
+(lp532
 F1361.0
 aF282.0
 asg15
 (itiddlywiki
 Tiddler
-p497
-(dp498
+p533
+(dp534
 g19
 V* [[Afternoon - Study|opt_study]]\u000a* [[Afternoon - Hang Out|opt_hang]]
-p499
+p535
 sg21
 Vchoose_afternoon
-p500
+p536
 sg23
 g24
 ((I2017
@@ -1639,12 +1756,12 @@ I39
 I6
 I64
 I0
-tp501
-(dp502
-tp503
-Rp504
+tp537
+(dp538
+tp539
+Rp540
 sg29
-(lp505
+(lp541
 sg31
 g24
 ((I2017
@@ -1656,28 +1773,28 @@ I13
 I6
 I64
 I0
-tp506
-(dp507
-tp508
-Rp509
-sbsa(dp510
+tp542
+(dp543
+tp544
+Rp545
+sbsa(dp546
 g12
 I00
 sg13
-(lp511
+(lp547
 I1601
 aI282
 asg15
 (itiddlywiki
 Tiddler
-p512
-(dp513
+p548
+(dp549
 g19
 V<<set afternoon_act = act_study >>\u000a<<return>>\u000a
-p514
+p550
 sg21
 Vopt_study
-p515
+p551
 sg23
 g24
 ((I2017
@@ -1689,12 +1806,12 @@ I4
 I6
 I64
 I0
-tp516
-(dp517
-tp518
-Rp519
+tp552
+(dp553
+tp554
+Rp555
 sg29
-(lp520
+(lp556
 sg31
 g24
 ((I2017
@@ -1706,28 +1823,28 @@ I49
 I6
 I64
 I0
-tp521
-(dp522
-tp523
-Rp524
-sbsa(dp525
+tp557
+(dp558
+tp559
+Rp560
+sbsa(dp561
 g12
 I00
 sg13
-(lp526
+(lp562
 F1598.0
 aF409.0
 asg15
 (itiddlywiki
 Tiddler
-p527
-(dp528
+p563
+(dp564
 g19
 V<<set afternoon_act = act_hang >>\u000a<<return>>\u000a
-p529
+p565
 sg21
 Vopt_hang
-p530
+p566
 sg23
 g24
 ((I2017
@@ -1739,12 +1856,12 @@ I14
 I6
 I64
 I0
-tp531
-(dp532
-tp533
-Rp534
+tp567
+(dp568
+tp569
+Rp570
 sg29
-(lp535
+(lp571
 sg31
 g24
 ((I2017
@@ -1756,28 +1873,28 @@ I52
 I6
 I64
 I0
-tp536
-(dp537
-tp538
-Rp539
-sbsa(dp540
+tp572
+(dp573
+tp574
+Rp575
+sbsa(dp576
 g12
 I00
 sg13
-(lp541
+(lp577
 F1357.0
 aF537.0
 asg15
 (itiddlywiki
 Tiddler
-p542
-(dp543
+p578
+(dp579
 g19
 V* [[Evening - Exercise|opt_exercise]]\u000a* [[Evening - Play Games|opt_play]]
-p544
+p580
 sg21
 Vchoose_evening
-p545
+p581
 sg23
 g24
 ((I2017
@@ -1789,12 +1906,12 @@ I33
 I6
 I64
 I0
-tp546
-(dp547
-tp548
-Rp549
+tp582
+(dp583
+tp584
+Rp585
 sg29
-(lp550
+(lp586
 sg31
 g24
 ((I2017
@@ -1806,28 +1923,28 @@ I13
 I6
 I64
 I0
-tp551
-(dp552
-tp553
-Rp554
-sbsa(dp555
+tp587
+(dp588
+tp589
+Rp590
+sbsa(dp591
 g12
 I00
 sg13
-(lp556
+(lp592
 I1599
 aI664
 asg15
 (itiddlywiki
 Tiddler
-p557
-(dp558
+p593
+(dp594
 g19
 V<<set evening_act = act_play >>\u000a<<return>>\u000a
-p559
+p595
 sg21
 Vopt_play
-p560
+p596
 sg23
 g24
 ((I2017
@@ -1839,12 +1956,12 @@ I52
 I6
 I64
 I0
-tp561
-(dp562
-tp563
-Rp564
+tp597
+(dp598
+tp599
+Rp600
 sg29
-(lp565
+(lp601
 sg31
 g24
 ((I2017
@@ -1856,28 +1973,28 @@ I39
 I6
 I64
 I0
-tp566
-(dp567
-tp568
-Rp569
-sbsa(dp570
+tp602
+(dp603
+tp604
+Rp605
+sbsa(dp606
 g12
 I00
 sg13
-(lp571
+(lp607
 F1599.0
 aF536.0
 asg15
 (itiddlywiki
 Tiddler
-p572
-(dp573
+p608
+(dp609
 g19
 V<<set evening_act = act_exercise >>\u000a<<return>>\u000a
-p574
+p610
 sg21
 Vopt_exercise
-p575
+p611
 sg23
 g24
 ((I2017
@@ -1889,12 +2006,12 @@ I43
 I6
 I64
 I0
-tp576
-(dp577
-tp578
-Rp579
+tp612
+(dp613
+tp614
+Rp615
 sg29
-(lp580
+(lp616
 sg31
 g24
 ((I2017
@@ -1906,45 +2023,45 @@ I44
 I6
 I64
 I0
-tp581
-(dp582
-tp583
-Rp584
-sbsa(dp585
+tp617
+(dp618
+tp619
+Rp620
+sbsa(dp621
 g12
-I01
+I00
 sg13
-(lp586
+(lp622
 F1095.0
-aF823.0
+aF824.0
 asg15
 (itiddlywiki
 Tiddler
-p587
-(dp588
+p623
+(dp624
 g19
-V<<if act is act_class >>\u000a	<<if not saw_introduction>>\u000a		<<call introduction>>\u000a		<<return>>\u000a	<<endif>>\u000a\u000a	<<if saw_cookies>>\u000a		<<call gg_confess>>\u000a		<<return>>\u000a	<<endif>>\u000a\u000a	<<call class>>\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_cut >>\u000a	<<set cut_type = random(1, 2) >>\u000a	<<if cut_type is 1>>\u000a		<<call cut1>>\u000a	<<endif>>\u000a	<<if cut_type is 2>>\u000a		<<call cut2>>\u000a	<<endif>>\u000a\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_study >>\u000a	<<if saw_bookslide>>\u000a		<<if not saw_cookies>>\u000a			<<call cookies>>\u000a			<<return>>\u000a		<<endif>>\u000a	<<endif>>\u000a\u000a	<<if saw_introduction>>\u000a		<<if not saw_borrow_pen and intelligence >= 20>>\u000a			<<call borrow_pen>>\u000a			<<return>>\u000a		<<endif>>\u000a\u000a		<<if saw_borrow_pen>>\u000a			<<if not saw_bookslide and intelligence >= 40>>\u000a				<<call bookslide>>\u000a				<<return>>\u000a			<<endif>>\u000a\u000a			<<call gg_smiling>>\u000a			<<return>>\u000a		<<endif>>\u000a\u000a		<<call gg_studying>>\u000a		<<return>>\u000a	<<endif>>\u000a\u000a	<<call study>>\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_hang >>\u000a	<<call hang>>\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_exercise >>\u000a	<<call exercise>>\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_play >>\u000a	<<call play>>\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<return>>
-p589
+V<<if act is act_class >>\u000a	<<if not saw_introduction>>\u000a		<<call introduction>>\u000a		<<return>>\u000a	<<endif>>\u000a\u000a	<<if saw_cookies and saw_dontsee>>\u000a		<<call both_confess>>\u000a		<<return>>\u000a	<<endif>>\u000a\u000a	<<if saw_cookies>>\u000a		<<call gg_confess>>\u000a		<<return>>\u000a	<<endif>>\u000a\u000a	<<if saw_dontsee>>\u000a		<<call sg_confess>>\u000a		<<return>>\u000a	<<endif>>\u000a\u000a	<<call class>>\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_cut >>\u000a	<<set cut_type = random(1, 2) >>\u000a	<<if cut_type is 1>>\u000a		<<call cut1>>\u000a	<<endif>>\u000a	<<if cut_type is 2>>\u000a		<<call cut2>>\u000a	<<endif>>\u000a\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_study >>\u000a	<<if saw_bookslide>>\u000a		<<if not saw_cookies>>\u000a			<<call cookies>>\u000a			<<return>>\u000a		<<endif>>\u000a	<<endif>>\u000a\u000a	<<if saw_introduction>>\u000a		<<if not saw_borrow_pen and intelligence >= 20>>\u000a			<<call borrow_pen>>\u000a			<<return>>\u000a		<<endif>>\u000a\u000a		<<if saw_borrow_pen>>\u000a			<<if not saw_bookslide and intelligence >= 40>>\u000a				<<call bookslide>>\u000a				<<return>>\u000a			<<endif>>\u000a\u000a			<<call gg_smiling>>\u000a			<<return>>\u000a		<<endif>>\u000a\u000a		<<call gg_studying>>\u000a		<<return>>\u000a	<<endif>>\u000a\u000a	<<call study>>\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_hang >>\u000a	<<call hang>>\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_exercise >>\u000a	<<if saw_introduction>>\u000a\u000a		<<if not saw_catchme>>\u000a			<<call catchme>>\u000a			<<return>>\u000a		<<endif>>\u000a\u000a		<<if strength >= 30 and not saw_caughtme>>\u000a			<<call caughtme>>\u000a			<<return>>\u000a		<<endif>>\u000a\u000a		<<if strength >= 30 and saw_caughtme>>\u000a			<<call together>>\u000a			<<return>>\u000a		<<endif>>\u000a\u000a		<<if strength < 30 and saw_caughtme>>\u000a			<<call apart>>\u000a			<<return>>\u000a		<<endif>>\u000a\u000a		<<if strength >= 50 and saw_caughtme and not saw_pothole>>\u000a			<<call pothole>>\u000a			<<return>>\u000a		<<endif>>\u000a\u000a		<<if strength >= 50 and saw_pothole>>\u000a			<<call dontsee>>\u000a			<<return>>\u000a		<<endif>>\u000a\u000a		<<call cantcatchme>>\u000a		<<return>>\u000a\u000a	<<endif>>\u000a\u000a	<<call exercise>>\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<if act is act_play >>\u000a	<<call play>>\u000a	<<return>>\u000a<<endif>>\u000a\u000a<<return>>
+p625
 sg21
 Vevents_run_period
-p590
+p626
 sg23
 g24
 ((I2017
 I3
-I5
-I23
-I43
-I49
 I6
-I64
+I21
+I47
 I0
-tp591
-(dp592
-tp593
-Rp594
+I0
+I65
+I0
+tp627
+(dp628
+tp629
+Rp630
 sg29
-(lp595
+(lp631
 sg31
 g24
 ((I2017
@@ -1956,14 +2073,14 @@ I10
 I6
 I64
 I0
-tp596
-(dp597
-tp598
-Rp599
+tp632
+(dp633
+tp634
+Rp635
 sbsasS'scale'
-p600
+p636
 I1
 sS'snapping'
-p601
+p637
 I00
 ss.
