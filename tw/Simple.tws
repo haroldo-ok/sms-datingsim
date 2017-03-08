@@ -379,7 +379,7 @@ tp124
 Rp125
 sbsa(dp126
 g12
-I00
+I01
 sg13
 (lp127
 I188
@@ -390,7 +390,7 @@ Tiddler
 p128
 (dp129
 g19
-V[img[class.png]]\u000a\u000aI run to school, and make it to my seat just as the bell signalling the start of class rings.\u000a<<pause>>\u000a\u000aTeacher: Before we start, I have an announcement to make.\u000aTeacher: We will have two new students joining us. Girls, come on in.\u000a<<pause>>\u000a\u000aTwo girls walk in, and stand in front of the class.\u000a<<pause>>\u000a\u000aThey're twins.\u000a<<pause>>\u000a\u000aIdentical twins.\u000a<<pause>>\u000a\u000aIdentical black hair, and the same pretty face.\u000a<<pause>>\u000a\u000aDespite that, it's still fairly easy to tell them apart.\u000a<<pause>>\u000a\u000aThe one on the left is wearing glasses.\u000a<<pause>>\u000a\u000aNot too thick, but enough to let me know she probably reads alot of books.\u000a<<pause>>\u000a\u000aIf I look a little closely, I can find another difference.\u000a<<pause>>\u000a\u000aThe one on the right probably exercises a bit more.\u000a<<pause>>\u000a\u000aI can tell by the muscle tone in her legs.\u000a<<pause>>\u000a\u000aI realize that I'm staring at her legs, and quickly look up.\u000a<<pause>>\u000a\u000aSuddenly, I realize that she's been talking for all this town.\u000a<<pause>>\u000a\u000aSporty Girl: ... to this town. And we hope to be friends with all of you.\u000a<<pause>>\u000a\u000aSporty Girl: Well, that's about it. Sis, do you have anything to say?\u000a<<pause>>\u000a\u000aThe girl with glasses pauses for a second, and then quickly says:\u000a<<pause>>\u000a\u000aGlasses Girl: It's good to meet you all.\u000a<<pause>>\u000a\u000aShe stops, and goes back to not saying anything.\u000a<<pause>>\u000a\u000aTeacher: Well, if that's all, you can take your seats and we can start the class.\u000a<<pause>>\u000a\u000aThey do, and our teacher begins his lecture.\u000a<<pause>>\u000a\u000aI don't think anyone pays much attention to it, however.\u000a<<pause>>\u000a\u000a<<set saw_introduction = true>>\u000a\u000a<<return>>
+V[img[class.png]]\u000a\u000aI run to school, and make it to my seat just as the bell signalling the start of class rings.\u000a<<pause>>\u000a\u000aTeacher: Before we start, I have an announcement to make.\u000aTeacher: We will have two new students joining us. Girls, come on in.\u000a<<pause>>\u000a\u000a[img[introduction_girls.png]]\u000a\u000aTwo girls walk in, and stand in front of the class.\u000a<<pause>>\u000a\u000aThey're twins.\u000a<<pause>>\u000a\u000aIdentical twins.\u000a<<pause>>\u000a\u000aIdentical black hair, and the same pretty face.\u000a<<pause>>\u000a\u000aDespite that, it's still fairly easy to tell them apart.\u000a<<pause>>\u000a\u000aThe one on the left is wearing glasses.\u000a<<pause>>\u000a\u000aNot too thick, but enough to let me know she probably reads alot of books.\u000a<<pause>>\u000a\u000aIf I look a little closely, I can find another difference.\u000a<<pause>>\u000a\u000aThe one on the right probably exercises a bit more.\u000a<<pause>>\u000a\u000aI can tell by the muscle tone in her legs.\u000a<<pause>>\u000a\u000aI realize that I'm staring at her legs, and quickly look up.\u000a<<pause>>\u000a\u000aSuddenly, I realize that she's been talking for all this town.\u000a<<pause>>\u000a\u000aSporty Girl: ... to this town. And we hope to be friends with all of you.\u000a<<pause>>\u000a\u000aSporty Girl: Well, that's about it. Sis, do you have anything to say?\u000a<<pause>>\u000a\u000aThe girl with glasses pauses for a second, and then quickly says:\u000a<<pause>>\u000a\u000aGlasses Girl: It's good to meet you all.\u000a<<pause>>\u000a\u000aShe stops, and goes back to not saying anything.\u000a<<pause>>\u000a\u000aTeacher: Well, if that's all, you can take your seats and we can start the class.\u000a<<pause>>\u000a\u000aThey do, and our teacher begins his lecture.\u000a<<pause>>\u000a\u000aI don't think anyone pays much attention to it, however.\u000a<<pause>>\u000a\u000a<<set saw_introduction = true>>\u000a\u000a<<return>>
 p130
 sg21
 Vintroduction
@@ -400,9 +400,9 @@ g24
 ((I2017
 I3
 I7
-I22
-I22
-I26
+I23
+I21
+I31
 I1
 I66
 I0

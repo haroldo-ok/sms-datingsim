@@ -82,6 +82,8 @@ Teacher: Before we start, I have an announcement to make.
 Teacher: We will have two new students joining us. Girls, come on in.
 <<pause>>
 
+[img[introduction_girls.png]]
+
 Two girls walk in, and stand in front of the class.
 <<pause>>
 
