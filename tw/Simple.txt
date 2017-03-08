@@ -338,6 +338,7 @@ She pulls out past me, and disappears into the distance. One day I'll catch up t
 
 
 :: night
+[img[night.png]]
 Night
 <<pause>>
 
@@ -429,6 +430,7 @@ I nod a third time, and we take off, running side by side.
 
 
 :: morning
+[img[morning.png]]
 Morning
 <<pause>>
 <<set act = morning_act >>
@@ -437,6 +439,7 @@ Morning
 
 
 :: afternoon
+[img[afternoon.png]]
 Afternoon
 <<pause>>
 <<set act = afternoon_act >>
@@ -445,6 +448,7 @@ Afternoon
 
 
 :: evening
+[img[evening.png]]
 Evening
 <<pause>>
 <<set act = evening_act >>

@@ -740,7 +740,7 @@ Tiddler
 p233
 (dp234
 g19
-VEvening\u000a<<pause>>\u000a<<set act = evening_act >>\u000a<<call events_run_period>>\u000a<<return>>
+V[img[evening.png]]\u000aEvening\u000a<<pause>>\u000a<<set act = evening_act >>\u000a<<call events_run_period>>\u000a<<return>>
 p235
 sg21
 Vevening
@@ -749,12 +749,12 @@ sg23
 g24
 ((I2017
 I3
-I5
+I7
 I21
-I44
-I2
-I6
-I64
+I32
+I30
+I1
+I66
 I0
 tp237
 (dp238
@@ -1340,7 +1340,7 @@ Tiddler
 p413
 (dp414
 g19
-VMorning\u000a<<pause>>\u000a<<set act = morning_act >>\u000a<<call events_run_period>>\u000a<<return>>
+V[img[morning.png]]\u000aMorning\u000a<<pause>>\u000a<<set act = morning_act >>\u000a<<call events_run_period>>\u000a<<return>>
 p415
 sg21
 Vmorning
@@ -1349,12 +1349,12 @@ sg23
 g24
 ((I2017
 I3
-I5
+I7
 I21
-I42
-I9
-I6
-I64
+I31
+I56
+I1
+I66
 I0
 tp417
 (dp418
@@ -1440,7 +1440,7 @@ Tiddler
 p443
 (dp444
 g19
-VAfternoon\u000a<<pause>>\u000a<<set act = afternoon_act >>\u000a<<call events_run_period>>\u000a<<return>>
+V[img[afternoon.png]]\u000aAfternoon\u000a<<pause>>\u000a<<set act = afternoon_act >>\u000a<<call events_run_period>>\u000a<<return>>
 p445
 sg21
 Vafternoon
@@ -1449,12 +1449,12 @@ sg23
 g24
 ((I2017
 I3
-I5
+I7
 I21
-I42
-I42
-I6
-I64
+I32
+I10
+I1
+I66
 I0
 tp447
 (dp448
@@ -1479,7 +1479,7 @@ tp454
 Rp455
 sbsa(dp456
 g12
-I00
+I01
 sg13
 (lp457
 I1087
@@ -1490,7 +1490,7 @@ Tiddler
 p458
 (dp459
 g19
-VNight\u000a<<pause>>\u000a\u000aIt's getting late, so I decide to go to sleep.\u000a\u000a<<call events_end_day>>\u000a\u000a* [[Sleep|day]]
+V[img[night.png]]\u000aNight\u000a<<pause>>\u000a\u000aIt's getting late, so I decide to go to sleep.\u000a\u000a<<call events_end_day>>\u000a\u000a* [[Sleep|day]]
 p460
 sg21
 Vnight
@@ -1499,12 +1499,12 @@ sg23
 g24
 ((I2017
 I3
-I5
+I7
 I21
-I59
-I37
-I6
-I64
+I36
+I41
+I1
+I66
 I0
 tp462
 (dp463
