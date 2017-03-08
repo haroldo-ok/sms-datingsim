@@ -31,6 +31,8 @@ Inspired by Ren'py's Dating Sim Engine
 
 
 :: Start Game
+[img[school_gate.png]]
+
 <<set day = 0 >>
 
 <<set saw_introduction = false>>
@@ -71,6 +73,8 @@ And this is my story...
 
 
 :: introduction
+[img[class.png]]
+
 I run to school, and make it to my seat just as the bell signalling the start of class rings.
 <<pause>>
 
@@ -161,6 +165,8 @@ I don't think anyone pays much attention to it, however.
 
 
 :: gg_studying
+[img[study.png]]
+
 I head to the library, to get some studying done.
 <<pause>>
 
@@ -176,6 +182,8 @@ I decide not to disturb her, and instead start reading my own book.
 
 
 :: catchme
+[img[exercise.png]]
+
 I decide to go out for a run, to keep myself in shape.
 <<pause>>
 
@@ -263,6 +271,8 @@ What should I do today?
 
 
 :: borrow_pen
+[img[study.png]]
+
 I head to the library, to get some studying done.
 <<pause>>
 
@@ -317,6 +327,8 @@ She says, and she goes back to studying.
 
 
 :: cantcatchme
+[img[exercise.png]]
+
 I'm out running again, when the sporty girl catches up to me.
 <<pause>>
 
@@ -356,6 +368,8 @@ It's getting late, so I decide to go to sleep.
 
 
 :: gg_smiling
+[img[study.png]]
+
 I head to the library, to get some studying done.
 <<pause>>
 
@@ -371,6 +385,8 @@ I decide not to disturb her, and instead start reading my own book.
 
 
 :: caughtme
+[img[exercise.png]]
+
 I'm out running again, when the sporty girl catches up to me.
 <<pause>>
 
@@ -584,6 +600,8 @@ Evening
 
 
 :: bookslide
+[img[study.png]]
+
 I head to the library, to get some studying done.
 <<pause>>
 
@@ -641,6 +659,8 @@ She agrees, and together we begin piling the books up into neat piles.
 
 
 :: together
+[img[exercise.png]]
+
 I start running, and meet up with the sporty girl as she passes the street in front of my house.
 <<pause>>
 
@@ -656,6 +676,8 @@ Still, I can keep up with her for the rest of the run. And that's not bad.
 
 
 :: cookies
+[img[study.png]]
+
 I head to the library, to get some studying done.
 <<pause>>
 
@@ -713,6 +735,8 @@ At this, she can only blush.
 
 
 :: apart
+[img[exercise.png]]
+
 I start running, and meet up with the sporty girl as she passes the street in front of my house.
 <<pause>>
 
@@ -734,6 +758,8 @@ She's right, of course, and I redouble my efforts to try to keep up with her.
 
 
 :: class
+[img[class.png]]
+
 I make it to class just in time, and proceed to listen to the teacher droning on about a wide range of topics, none of which are remotely interesting.
 <<pause>>
 
@@ -741,6 +767,8 @@ I make it to class just in time, and proceed to listen to the teacher droning on
 
 
 :: cut1
+[img[goof.png]]
+
 I cut class, and spend the morning goofing off instead.
 <<set intelligence = intelligence - 10 >>
 <<pause>>
@@ -749,6 +777,8 @@ I cut class, and spend the morning goofing off instead.
 
 
 :: cut2
+[img[goof.png]]
+
 I cut class, and spend the morning playing computer games.
 <<pause>>
 
@@ -756,6 +786,8 @@ I cut class, and spend the morning playing computer games.
 
 
 :: gg_confess
+[img[class.png]]
+
 I once again barely make it to class on time.
 <<pause>>
 
@@ -813,6 +845,8 @@ Ending 1.
 
 
 :: pothole
+[img[exercise.png]]
+
 I start running, and meet up with the sporty girl as she passes the street in front of my house.
 <<pause>>
 
@@ -888,6 +922,8 @@ I stand up, and start carrying her home.
 
 
 :: study
+[img[study.png]]
+
 I head on down to the library, and start reading about the topics I should have been reading about in class.
 <<set intelligence = intelligence + 10 >>
 <<pause>>
@@ -896,6 +932,8 @@ I head on down to the library, and start reading about the topics I should have 
 
 
 :: hang
+[img[hang.png]]
+
 I spend the afternoon hanging out with my friends, killing some time.
 <<pause>>
 
@@ -903,6 +941,8 @@ I spend the afternoon hanging out with my friends, killing some time.
 
 
 :: exercise
+[img[exercise.png]]
+
 I decide to go out for a run through the town, to keep myself in shape.
 
 <<set strength = strength + 10 >>
@@ -912,6 +952,8 @@ I decide to go out for a run through the town, to keep myself in shape.
 
 
 :: dontsee
+[img[exercise.png]]
+
 I go running again.
 <<pause>>
 
@@ -927,6 +969,8 @@ I finish the course that we usually take, but it's not the same without her.
 
 
 :: play
+[img[goof.png]]
+
 I pop a DVD into my video game console, and spend the evening rolling small cities up into balls.
 	 
 <<set strength = strength - 10 >>
@@ -936,6 +980,8 @@ I pop a DVD into my video game console, and spend the evening rolling small citi
 
 
 :: sg_confess
+[img[class.png]]
+
 I once again barely make it to class on time.
 <<pause>>
 
@@ -1010,6 +1056,8 @@ Ending 2.
 
 
 :: both_confess
+[img[class.png]]
+
 I once again barely make it to class on time.
 <<pause>>
 
