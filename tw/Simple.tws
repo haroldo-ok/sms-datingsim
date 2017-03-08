@@ -24,8 +24,8 @@ I00
 sS'pos'
 p13
 (lp14
-I458
-aI1137
+I76
+aI964
 asS'passage'
 p15
 (itiddlywiki
@@ -82,8 +82,8 @@ g12
 I00
 sg13
 (lp37
-I656
-aI1284
+I275
+aI1100
 asg15
 (itiddlywiki
 Tiddler
@@ -132,8 +132,8 @@ g12
 I00
 sg13
 (lp52
-I460
-aI1007
+I79
+aI833
 asg15
 (itiddlywiki
 Tiddler
@@ -182,8 +182,8 @@ g12
 I00
 sg13
 (lp67
-I441
-aI21
+I1111
+aI28
 asg15
 (itiddlywiki
 Tiddler
@@ -232,8 +232,8 @@ g12
 I00
 sg13
 (lp82
-I834
-aI41
+I409
+aI112
 asg15
 (itiddlywiki
 Tiddler
@@ -282,8 +282,8 @@ g12
 I00
 sg13
 (lp97
-I659
-aI879
+I276
+aI703
 asg15
 (itiddlywiki
 Tiddler
@@ -332,8 +332,8 @@ g12
 I00
 sg13
 (lp112
-I463
-aI878
+I80
+aI702
 asg15
 (itiddlywiki
 Tiddler
@@ -382,8 +382,8 @@ g12
 I00
 sg13
 (lp127
-I568
-aI479
+I188
+aI271
 asg15
 (itiddlywiki
 Tiddler
@@ -433,14 +433,14 @@ I00
 sg13
 (lp142
 I1096
-aI458
+aI457
 asg15
 (itiddlywiki
 Tiddler
 p143
 (dp144
 g19
-V<<set day = day + 1 >>\u000a\u000aIt's day&nbsp;<<print day >>.\u000aStrength: <<print strength >>.\u000aIntelligence: <<print intelligence >>.\u000a<<pause>>\u000a\u000a<<set morning_act = 0 >>\u000a<<set afternoon_act = 0 >>\u000a<<set evening_act = 0 >>\u000a\u000aWhat should I do today?\u000a<<pause>>\u000a\u000a<<call choose_morning>>\u000a<<call choose_afternoon>>\u000a<<call choose_evening>>\u000a\u000a<<call morning>>\u000a<<call afternoon>>\u000a<<call evening>>\u000a\u000a*[[Continue|night]]
+V[img[day.png]]\u000a\u000a<<set day = day + 1 >>\u000a\u000aIt's day&nbsp;<<print day >>.\u000aStrength: <<print strength >>.\u000aIntelligence: <<print intelligence >>.\u000a<<pause>>\u000a\u000a<<set morning_act = 0 >>\u000a<<set afternoon_act = 0 >>\u000a<<set evening_act = 0 >>\u000a\u000aWhat should I do today?\u000a<<pause>>\u000a\u000a<<call choose_morning>>\u000a<<call choose_afternoon>>\u000a<<call choose_evening>>\u000a\u000a<<call morning>>\u000a<<call afternoon>>\u000a<<call evening>>\u000a\u000a*[[Continue|night]]
 p145
 sg21
 Vday
@@ -449,12 +449,12 @@ sg23
 g24
 ((I2017
 I3
-I5
+I7
+I21
 I22
-I37
-I36
 I6
-I64
+I1
+I66
 I0
 tp147
 (dp148
@@ -482,8 +482,8 @@ g12
 I00
 sg13
 (lp157
-I465
-aI747
+I83
+aI570
 asg15
 (itiddlywiki
 Tiddler
@@ -532,8 +532,8 @@ g12
 I00
 sg13
 (lp172
-I659
-aI750
+I276
+aI571
 asg15
 (itiddlywiki
 Tiddler
@@ -632,8 +632,8 @@ g12
 I00
 sg13
 (lp202
-I1093
-aI209
+I868
+aI115
 asg15
 (itiddlywiki
 Tiddler
@@ -782,8 +782,8 @@ g12
 I00
 sg13
 (lp247
-I653
-aI1548
+I274
+aI1355
 asg15
 (itiddlywiki
 Tiddler
@@ -832,8 +832,8 @@ g12
 I00
 sg13
 (lp262
-I664
-aI615
+I277
+aI443
 asg15
 (itiddlywiki
 Tiddler
@@ -1082,8 +1082,8 @@ g12
 I00
 sg13
 (lp337
-I656
-aI1146
+I273
+aI970
 asg15
 (itiddlywiki
 Tiddler
@@ -1132,8 +1132,8 @@ g12
 I00
 sg13
 (lp352
-I458
-aI1269
+I76
+aI1092
 asg15
 (itiddlywiki
 Tiddler
@@ -1182,8 +1182,8 @@ g12
 I00
 sg13
 (lp367
-I467
-aI613
+I84
+aI442
 asg15
 (itiddlywiki
 Tiddler
@@ -1282,8 +1282,8 @@ g12
 I00
 sg13
 (lp397
-I656
-aI1009
+I275
+aI837
 asg15
 (itiddlywiki
 Tiddler
@@ -1382,8 +1382,8 @@ g12
 I00
 sg13
 (lp427
-I572
-aI1708
+I193
+aI1517
 asg15
 (itiddlywiki
 Tiddler
@@ -1532,8 +1532,8 @@ g12
 I00
 sg13
 (lp472
-I653
-aI1416
+I274
+aI1227
 asg15
 (itiddlywiki
 Tiddler

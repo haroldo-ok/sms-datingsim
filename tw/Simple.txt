@@ -30,12 +30,6 @@ Inspired by Ren'py's Dating Sim Engine
 * [[Start Game|Start Game]]
 
 
-:: opt_cut
-<<set morning_act = act_cut >>
-<<return>>
-
-
-
 :: Start Game
 <<set day = 0 >>
 
@@ -70,47 +64,10 @@ And this is my story...
 * [[Continue|day]]
 
 
-:: choose_afternoon
-* [[Afternoon - Study|opt_study]]
-* [[Afternoon - Hang Out|opt_hang]]
-
-
-:: opt_study
-<<set afternoon_act = act_study >>
+:: opt_cut
+<<set morning_act = act_cut >>
 <<return>>
 
-
-
-:: opt_hang
-<<set afternoon_act = act_hang >>
-<<return>>
-
-
-
-:: day
-<<set day = day + 1 >>
-
-It's day&nbsp;<<print day >>.
-Strength: <<print strength >>.
-Intelligence: <<print intelligence >>.
-<<pause>>
-
-<<set morning_act = 0 >>
-<<set afternoon_act = 0 >>
-<<set evening_act = 0 >>
-
-What should I do today?
-<<pause>>
-
-<<call choose_morning>>
-<<call choose_afternoon>>
-<<call choose_evening>>
-
-<<call morning>>
-<<call afternoon>>
-<<call evening>>
-
-*[[Continue|night]]
 
 
 :: introduction
@@ -186,13 +143,19 @@ I don't think anyone pays much attention to it, however.
 <<return>>
 
 
-:: choose_evening
-* [[Evening - Exercise|opt_exercise]]
-* [[Evening - Play Games|opt_play]]
+:: choose_afternoon
+* [[Afternoon - Study|opt_study]]
+* [[Afternoon - Hang Out|opt_hang]]
 
 
-:: opt_exercise
-<<set evening_act = act_exercise >>
+:: opt_study
+<<set afternoon_act = act_study >>
+<<return>>
+
+
+
+:: opt_hang
+<<set afternoon_act = act_hang >>
 <<return>>
 
 
@@ -260,19 +223,41 @@ Even though I'm jogging, she pulls away as if it is nothing.
 <<return>>
 
 
-:: night
-Night
+:: day
+[img[day.png]]
+
+<<set day = day + 1 >>
+
+It's day&nbsp;<<print day >>.
+Strength: <<print strength >>.
+Intelligence: <<print intelligence >>.
 <<pause>>
 
-It's getting late, so I decide to go to sleep.
+<<set morning_act = 0 >>
+<<set afternoon_act = 0 >>
+<<set evening_act = 0 >>
 
-<<call events_end_day>>
+What should I do today?
+<<pause>>
 
-* [[Sleep|day]]
+<<call choose_morning>>
+<<call choose_afternoon>>
+<<call choose_evening>>
+
+<<call morning>>
+<<call afternoon>>
+<<call evening>>
+
+*[[Continue|night]]
 
 
-:: opt_play
-<<set evening_act = act_play >>
+:: choose_evening
+* [[Evening - Exercise|opt_exercise]]
+* [[Evening - Play Games|opt_play]]
+
+
+:: opt_exercise
+<<set evening_act = act_exercise >>
 <<return>>
 
 
@@ -348,6 +333,97 @@ She pulls out past me, and disappears into the distance. One day I'll catch up t
 <<pause>>
 
 <<set strength = strength + 10 >>
+
+<<return>>
+
+
+:: night
+Night
+<<pause>>
+
+It's getting late, so I decide to go to sleep.
+
+<<call events_end_day>>
+
+* [[Sleep|day]]
+
+
+:: opt_play
+<<set evening_act = act_play >>
+<<return>>
+
+
+
+:: gg_smiling
+I head to the library, to get some studying done.
+<<pause>>
+
+The glasses girl is there, and smiles at me for a second before turning back to her book.
+<<pause>>
+
+I decide not to disturb her, and instead start reading my own book.
+<<pause>>
+
+<<set intelligence = intelligence + 10 >>
+
+<<return>>
+
+
+:: caughtme
+I'm out running again, when the sporty girl catches up to me.
+<<pause>>
+
+Sporty Girl: Still at it?
+<<pause>>
+
+Sporty Girl: Well, keep up the good work. One day you'll be as fast as me!
+<<pause>>
+
+Sporty Girl: Well, maybe.
+<<pause>>
+
+
+Today, however, I'm not about to let this stand unchallenged.
+<<pause>>
+
+I break out into a run, and for the first time ever, I keep up with her.
+<<pause>>
+
+We both run, neck and neck, me keeping up with her.
+<<pause>>
+
+Finally, she starts slowing down, and we come to a stop together.
+<<pause>>
+
+Sporty Girl: Not bad.
+<<pause>>
+
+She pauses to catch her breath.
+<<pause>>
+
+Sporty Girl: You've been practicing, and it really shows.
+<<pause>>
+
+Sporty Girl: You've finally become fast enough to run with me.
+<<pause>>
+
+I nod, accepting her praise.
+<<pause>>
+
+Sporty Girl: We should do this more often... it's better to run with someone else, to keep the challenge up.
+<<pause>>
+
+I nod again.
+<<pause>>
+
+Sporty Girl: Well, shall we go?
+<<pause>>
+
+I nod a third time, and we take off, running side by side.
+<<pause>>
+
+<<set strength = strength + 10 >>
+<<set saw_caughtme = true>>
 
 <<return>>
 
@@ -503,102 +579,6 @@ Evening
 <<return>>
 
 
-:: gg_smiling
-I head to the library, to get some studying done.
-<<pause>>
-
-The glasses girl is there, and smiles at me for a second before turning back to her book.
-<<pause>>
-
-I decide not to disturb her, and instead start reading my own book.
-<<pause>>
-
-<<set intelligence = intelligence + 10 >>
-
-<<return>>
-
-
-:: caughtme
-I'm out running again, when the sporty girl catches up to me.
-<<pause>>
-
-Sporty Girl: Still at it?
-<<pause>>
-
-Sporty Girl: Well, keep up the good work. One day you'll be as fast as me!
-<<pause>>
-
-Sporty Girl: Well, maybe.
-<<pause>>
-
-
-Today, however, I'm not about to let this stand unchallenged.
-<<pause>>
-
-I break out into a run, and for the first time ever, I keep up with her.
-<<pause>>
-
-We both run, neck and neck, me keeping up with her.
-<<pause>>
-
-Finally, she starts slowing down, and we come to a stop together.
-<<pause>>
-
-Sporty Girl: Not bad.
-<<pause>>
-
-She pauses to catch her breath.
-<<pause>>
-
-Sporty Girl: You've been practicing, and it really shows.
-<<pause>>
-
-Sporty Girl: You've finally become fast enough to run with me.
-<<pause>>
-
-I nod, accepting her praise.
-<<pause>>
-
-Sporty Girl: We should do this more often... it's better to run with someone else, to keep the challenge up.
-<<pause>>
-
-I nod again.
-<<pause>>
-
-Sporty Girl: Well, shall we go?
-<<pause>>
-
-I nod a third time, and we take off, running side by side.
-<<pause>>
-
-<<set strength = strength + 10 >>
-<<set saw_caughtme = true>>
-
-<<return>>
-
-
-:: class
-I make it to class just in time, and proceed to listen to the teacher droning on about a wide range of topics, none of which are remotely interesting.
-<<pause>>
-
-<<return>>
-
-
-:: cut1
-I cut class, and spend the morning goofing off instead.
-<<set intelligence = intelligence - 10 >>
-<<pause>>
-
-<<return>>
-
-
-:: cut2
-I cut class, and spend the morning playing computer games.
-<<pause>>
-
-<<return>>
-
-
 :: bookslide
 I head to the library, to get some studying done.
 <<pause>>
@@ -667,30 +647,6 @@ Still, I can keep up with her for the rest of the run. And that's not bad.
 <<pause>>
 
 <<set strength = strength + 10 >>
-
-<<return>>
-
-
-:: study
-I head on down to the library, and start reading about the topics I should have been reading about in class.
-<<set intelligence = intelligence + 10 >>
-<<pause>>
-
-<<return>>
-
-
-:: hang
-I spend the afternoon hanging out with my friends, killing some time.
-<<pause>>
-
-<<return>>
-
-
-:: exercise
-I decide to go out for a run through the town, to keep myself in shape.
-
-<<set strength = strength + 10 >>
-<<pause>>
 
 <<return>>
 
@@ -773,10 +729,23 @@ She's right, of course, and I redouble my efforts to try to keep up with her.
 <<return>>
 
 
-:: play
-I pop a DVD into my video game console, and spend the evening rolling small cities up into balls.
-	 
-<<set strength = strength - 10 >>
+:: class
+I make it to class just in time, and proceed to listen to the teacher droning on about a wide range of topics, none of which are remotely interesting.
+<<pause>>
+
+<<return>>
+
+
+:: cut1
+I cut class, and spend the morning goofing off instead.
+<<set intelligence = intelligence - 10 >>
+<<pause>>
+
+<<return>>
+
+
+:: cut2
+I cut class, and spend the morning playing computer games.
 <<pause>>
 
 <<return>>
@@ -914,6 +883,30 @@ I stand up, and start carrying her home.
 <<return>>
 
 
+:: study
+I head on down to the library, and start reading about the topics I should have been reading about in class.
+<<set intelligence = intelligence + 10 >>
+<<pause>>
+
+<<return>>
+
+
+:: hang
+I spend the afternoon hanging out with my friends, killing some time.
+<<pause>>
+
+<<return>>
+
+
+:: exercise
+I decide to go out for a run through the town, to keep myself in shape.
+
+<<set strength = strength + 10 >>
+<<pause>>
+
+<<return>>
+
+
 :: dontsee
 I go running again.
 <<pause>>
@@ -925,6 +918,15 @@ I finish the course that we usually take, but it's not the same without her.
 <<pause>>
 
 <<set saw_dontsee = true>>
+
+<<return>>
+
+
+:: play
+I pop a DVD into my video game console, and spend the evening rolling small cities up into balls.
+	 
+<<set strength = strength - 10 >>
+<<pause>>
 
 <<return>>
 
