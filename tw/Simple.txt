@@ -108,11 +108,15 @@ Not too thick, but enough to let me know she probably reads alot of books.
 If I look a little closely, I can find another difference.
 <<pause>>
 
+[img[legs.png]]
+
 The one on the right probably exercises a bit more.
 <<pause>>
 
 I can tell by the muscle tone in her legs.
 <<pause>>
+
+[img[introduction_girls.png]]
 
 I realize that I'm staring at her legs, and quickly look up.
 <<pause>>
@@ -137,6 +141,8 @@ She stops, and goes back to not saying anything.
 
 Teacher: Well, if that's all, you can take your seats and we can start the class.
 <<pause>>
+
+[img[class.png]]
 
 They do, and our teacher begins his lecture.
 <<pause>>
@@ -172,8 +178,12 @@ I don't think anyone pays much attention to it, however.
 I head to the library, to get some studying done.
 <<pause>>
 
+[img[study_girl.png]]
+
 The glasses girl is there, but she's busy reading a book, taking notes as she does so.
 <<pause>>
+
+[img[study.png]]
 
 I decide not to disturb her, and instead start reading my own book.
 <<pause>>
@@ -191,6 +201,8 @@ I decide to go out for a run, to keep myself in shape.
 
 As I'm running through the town, I see a girl.
 <<pause>>
+
+[img[exercise_girl.png]]
 
 She's one of the twins who transferred into my class.
 <<pause>>
@@ -224,6 +236,8 @@ Sporty Girl: See? Well, maybe we can try it again when you're a bit faster.
 
 Sporty Girl: Until then, later.
 <<pause>>
+
+[img[exercise.png]]
 
 Even though I'm jogging, she pulls away as if it is nothing.
 <<pause>>
@@ -278,14 +292,20 @@ What should I do today?
 I head to the library, to get some studying done.
 <<pause>>
 
+[img[study_girl.png]]
+
 The glasses girl is there, but she's busy reading a book.
 <<pause>>
+
+[img[study.png]]
 
 I decide not to disturb her, and instead start reading my own book.
 <<pause>>
 
 Suddenly, I feel a tap on my shoulder.
 <<pause>>
+
+[img[study_girl.png]]
 
 I look up, and see the glasses girl standing right next to me.
 <<pause>>
@@ -334,6 +354,8 @@ She says, and she goes back to studying.
 I'm out running again, when the sporty girl catches up to me.
 <<pause>>
 
+[img[exercise_girl.png]]
+
 Sporty Girl: Still at it?
 <<pause>>
 
@@ -342,6 +364,8 @@ Sporty Girl: Well, keep up the good work. One day you'll be as fast as me!
 
 Sporty Girl: Well, maybe.
 <<pause>>
+
+[img[exercise.png]]
 
 She pulls out past me, and disappears into the distance. One day I'll catch up to her.
 <<pause>>
@@ -375,8 +399,12 @@ It's getting late, so I decide to go to sleep.
 I head to the library, to get some studying done.
 <<pause>>
 
+[img[study_girl.png]]
+
 The glasses girl is there, and smiles at me for a second before turning back to her book.
 <<pause>>
+
+[img[study.png]]
 
 I decide not to disturb her, and instead start reading my own book.
 <<pause>>
@@ -391,6 +419,8 @@ I decide not to disturb her, and instead start reading my own book.
 
 I'm out running again, when the sporty girl catches up to me.
 <<pause>>
+
+[img[exercise_girl.png]]
 
 Sporty Girl: Still at it?
 <<pause>>
@@ -607,6 +637,8 @@ Evening
 I head to the library, to get some studying done.
 <<pause>>
 
+[img[study_girl.png]]
+
 The glasses girl is standing right by the entrance, putting a book back into a bookcase containing science books.
 <<pause>>
 
@@ -666,6 +698,8 @@ She agrees, and together we begin piling the books up into neat piles.
 I start running, and meet up with the sporty girl as she passes the street in front of my house.
 <<pause>>
 
+[img[exercise_girl.png]]
+
 She's still better than me... she's been running for over a mile before reaching this point.
 <<pause>>
 
@@ -682,6 +716,8 @@ Still, I can keep up with her for the rest of the run. And that's not bad.
 
 I head to the library, to get some studying done.
 <<pause>>
+
+[img[study_girl.png]]
 
 The glasses girl is there, apparently waiting for me.
 <<pause>>
@@ -742,11 +778,17 @@ At this, she can only blush.
 I start running, and meet up with the sporty girl as she passes the street in front of my house.
 <<pause>>
 
+[img[exercise_girl.png]]
+
 I try to keep up with her, but she pulls away from me.
 <<pause>>
 
+[img[exercise.png]]
+
 When she's a block away, she slows down and lets me catch up.
 <<pause>>
+
+[img[exercise_girl.png]]
 
 Sporty Girl: It's your own fault... this is what you get for not practicing.
 <<pause>>
@@ -847,7 +889,7 @@ Ending 1.
 
 
 :: pothole
-[img[exercise.png]]
+[img[exercise_girl.png]]
 
 I start running, and meet up with the sporty girl as she passes the street in front of my house.
 <<pause>>

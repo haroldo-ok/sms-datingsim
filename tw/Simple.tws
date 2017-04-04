@@ -34,7 +34,7 @@ p16
 (dp18
 S'text'
 p19
-V[img[study.png]]\u000a\u000aI head to the library, to get some studying done.\u000a<<pause>>\u000a\u000aThe glasses girl is there, apparently waiting for me.\u000a<<pause>>\u000a\u000aShe's holding a package in her hands.\u000a<<pause>>\u000a\u000aGlasses Girl: Here.\u000a<<pause>>\u000a\u000aShe says, and she hands me the package.\u000a<<pause>>\u000a\u000aI take it from her, and open it.\u000a<<pause>>\u000a\u000aIt contains fresh homemade cookies. Ginger snaps, I think.\u000a<<pause>>\u000a\u000aGlasses Girl: It's to thank you.\u000a<<pause>>\u000a\u000aShe points out... She's probably not used to this. \u000a<<pause>>\u000a\u000aEspecially with guys.\u000a<<pause>>\u000a\u000aI take one of them, and stick it in my mouth.\u000a<<pause>>\u000a\u000aThe taste is exquisite.\u000a<<pause>>\u000a\u000aIt's perhaps one of the best cookies I've ever tasted.\u000a<<pause>>\u000a\u000aOf course it is. It's the only cookie I'd ever tasted that was made for me by a beutiful girl.\u000a<<pause>>\u000a\u000aI tell her this... that it's delicious, not the girl part.\u000a<<pause>>\u000a\u000aBut I do let slip that if I could eat these every day, I'd be the happiest guy in the world.\u000a<<pause>>\u000a\u000aAt this, she can only blush.\u000a<<pause>>\u000a\u000a<<set saw_cookies = true>>\u000a\u000a<<return>>
+V[img[study.png]]\u000a\u000aI head to the library, to get some studying done.\u000a<<pause>>\u000a\u000a[img[study_girl.png]]\u000a\u000aThe glasses girl is there, apparently waiting for me.\u000a<<pause>>\u000a\u000aShe's holding a package in her hands.\u000a<<pause>>\u000a\u000aGlasses Girl: Here.\u000a<<pause>>\u000a\u000aShe says, and she hands me the package.\u000a<<pause>>\u000a\u000aI take it from her, and open it.\u000a<<pause>>\u000a\u000aIt contains fresh homemade cookies. Ginger snaps, I think.\u000a<<pause>>\u000a\u000aGlasses Girl: It's to thank you.\u000a<<pause>>\u000a\u000aShe points out... She's probably not used to this. \u000a<<pause>>\u000a\u000aEspecially with guys.\u000a<<pause>>\u000a\u000aI take one of them, and stick it in my mouth.\u000a<<pause>>\u000a\u000aThe taste is exquisite.\u000a<<pause>>\u000a\u000aIt's perhaps one of the best cookies I've ever tasted.\u000a<<pause>>\u000a\u000aOf course it is. It's the only cookie I'd ever tasted that was made for me by a beutiful girl.\u000a<<pause>>\u000a\u000aI tell her this... that it's delicious, not the girl part.\u000a<<pause>>\u000a\u000aBut I do let slip that if I could eat these every day, I'd be the happiest guy in the world.\u000a<<pause>>\u000a\u000aAt this, she can only blush.\u000a<<pause>>\u000a\u000a<<set saw_cookies = true>>\u000a\u000a<<return>>
 p20
 sS'title'
 p21
@@ -46,13 +46,13 @@ ctime
 struct_time
 p24
 ((I2017
+I4
 I3
-I7
 I22
-I15
-I50
-I1
-I66
+I17
+I5
+I0
+I93
 I0
 tp25
 (dp26
@@ -90,7 +90,7 @@ Tiddler
 p38
 (dp39
 g19
-V[img[exercise.png]]\u000a\u000aI start running, and meet up with the sporty girl as she passes the street in front of my house.\u000a<<pause>>\u000a\u000aWe run together for several miles.\u000a<<pause>>\u000a\u000aI think about how much I've improved in our time together.\u000a<<pause>>\u000a\u000aAnd, although she probably won't admit it, I think she's improved as well.\u000a<<pause>>\u000a\u000aI guess a little friendly competition is usually for the best.\u000a<<pause>>\u000a\u000aA small yelp pulls me out of my thought.\u000a<<pause>>\u000a\u000aSporty Girl: Ow!\u000a<<pause>>\u000a\u000aThe sporty girl sits down, grabbing her ankle.\u000a<<pause>>\u000a\u000aI ask her what happened.\u000a<<pause>>\u000a\u000aSporty Girl: I... hit a... pothole. Twisted my... ankle.\u000a<<pause>>\u000a\u000aI wince in sympathy.\u000a<<pause>>\u000a\u000aWe wait a bit. I'm not sure what to do.\u000a<<pause>>\u000a\u000aFinally, I ask her if she can walk on it.\u000a<<pause>>\u000a\u000aShe tries for a bit, but then winces in pain.\u000a<<pause>>\u000a\u000aSporty Girl: No, I don't think so.\u000a<<pause>>\u000a\u000aI realize that we can't stay here.\u000a<<pause>>\u000a\u000aAnd so, I crouch down and motion for her to climb up onto my back.\u000a<<pause>>\u000a\u000aSporty Girl: What are you doing?\u000a<<pause>>\u000a\u000aI explain that she can't stay out in the middle of the street forever, and she won't get any help until I can get her home.\u000a<<pause>>\u000a\u000aAnd the only way to do that is for me to carry her.\u000a<<pause>>\u000a\u000aShe accepts this, and climbs up onto my back.\u000a<<pause>>\u000a\u000aShe wraps her arms around my neck, and I place my hands underneath her to make a seat.\u000a<<pause>>\u000a\u000aI stand up, and start carrying her home.\u000a<<pause>>\u000a\u000a<<set saw_pothole = true>>\u000a\u000a<<return>>
+V[img[exercise_girl.png]]\u000a\u000aI start running, and meet up with the sporty girl as she passes the street in front of my house.\u000a<<pause>>\u000a\u000aWe run together for several miles.\u000a<<pause>>\u000a\u000aI think about how much I've improved in our time together.\u000a<<pause>>\u000a\u000aAnd, although she probably won't admit it, I think she's improved as well.\u000a<<pause>>\u000a\u000aI guess a little friendly competition is usually for the best.\u000a<<pause>>\u000a\u000aA small yelp pulls me out of my thought.\u000a<<pause>>\u000a\u000aSporty Girl: Ow!\u000a<<pause>>\u000a\u000aThe sporty girl sits down, grabbing her ankle.\u000a<<pause>>\u000a\u000aI ask her what happened.\u000a<<pause>>\u000a\u000aSporty Girl: I... hit a... pothole. Twisted my... ankle.\u000a<<pause>>\u000a\u000aI wince in sympathy.\u000a<<pause>>\u000a\u000aWe wait a bit. I'm not sure what to do.\u000a<<pause>>\u000a\u000aFinally, I ask her if she can walk on it.\u000a<<pause>>\u000a\u000aShe tries for a bit, but then winces in pain.\u000a<<pause>>\u000a\u000aSporty Girl: No, I don't think so.\u000a<<pause>>\u000a\u000aI realize that we can't stay here.\u000a<<pause>>\u000a\u000aAnd so, I crouch down and motion for her to climb up onto my back.\u000a<<pause>>\u000a\u000aSporty Girl: What are you doing?\u000a<<pause>>\u000a\u000aI explain that she can't stay out in the middle of the street forever, and she won't get any help until I can get her home.\u000a<<pause>>\u000a\u000aAnd the only way to do that is for me to carry her.\u000a<<pause>>\u000a\u000aShe accepts this, and climbs up onto my back.\u000a<<pause>>\u000a\u000aShe wraps her arms around my neck, and I place my hands underneath her to make a seat.\u000a<<pause>>\u000a\u000aI stand up, and start carrying her home.\u000a<<pause>>\u000a\u000a<<set saw_pothole = true>>\u000a\u000a<<return>>
 p40
 sg21
 Vpothole
@@ -98,13 +98,13 @@ p41
 sg23
 g24
 ((I2017
+I4
 I3
-I7
 I22
-I14
-I50
-I1
-I66
+I20
+I36
+I0
+I93
 I0
 tp42
 (dp43
@@ -140,7 +140,7 @@ Tiddler
 p53
 (dp54
 g19
-V[img[study.png]]\u000a\u000aI head to the library, to get some studying done.\u000a<<pause>>\u000a\u000aThe glasses girl is standing right by the entrance, putting a book back into a bookcase containing science books.\u000a<<pause>>\u000a\u000aIt looks quite old, and quite weak, as if it could break at any time.\u000a<<pause>>\u000a\u000aSuddenly, I hear a loud crack come from the bookcase.\u000a<<pause>>\u000a\u000aWithout thinking, I throw myself between the girl and the bookcase, pushing her out of the way in the process.\u000a<<pause>>\u000a\u000aAs the shelves fail one by one, I'm hit with large textbooks on topics ranging from Astronomy to Zoology.\u000a<<pause>>\u000a\u000aShe's safe, but I'm knocked off my feet by the falling books.\u000a<<pause>>\u000a\u000aBefore the dust even settled, the girl with glasses realized what happened and asked:\u000a<<pause>>\u000a\u000aGlasses Girl: Are you alright?\u000a<<pause>>\u000a\u000aI tell her that I am, all the while rubbing a bruise left by a particularly large Physics book.\u000a<<pause>>\u000a\u000aGlasses Girl: You saved me.\u000a<<pause>>\u000a\u000aShe points out. I shrug... I guess I did, but it's not like I'm a hero or anything.\u000a<<pause>>\u000a\u000aShe extends out her hand, I take it, and she helps me to get up.\u000a<<pause>>\u000a\u000aGlasses Girl: Wow... Um...\u000a<<pause>>\u000a\u000aShe doesn't know what to say.\u000a<<pause>>\u000a\u000aI suggest that we help clean up the mess, mostly to take her off the spot.\u000a<<pause>>\u000a\u000aShe agrees, and together we begin piling the books up into neat piles.\u000a<<pause>>\u000a\u000a<<set saw_bookslide = true>>\u000a\u000a<<return>>
+V[img[study.png]]\u000a\u000aI head to the library, to get some studying done.\u000a<<pause>>\u000a\u000a[img[study_girl.png]]\u000a\u000aThe glasses girl is standing right by the entrance, putting a book back into a bookcase containing science books.\u000a<<pause>>\u000a\u000aIt looks quite old, and quite weak, as if it could break at any time.\u000a<<pause>>\u000a\u000aSuddenly, I hear a loud crack come from the bookcase.\u000a<<pause>>\u000a\u000aWithout thinking, I throw myself between the girl and the bookcase, pushing her out of the way in the process.\u000a<<pause>>\u000a\u000aAs the shelves fail one by one, I'm hit with large textbooks on topics ranging from Astronomy to Zoology.\u000a<<pause>>\u000a\u000aShe's safe, but I'm knocked off my feet by the falling books.\u000a<<pause>>\u000a\u000aBefore the dust even settled, the girl with glasses realized what happened and asked:\u000a<<pause>>\u000a\u000aGlasses Girl: Are you alright?\u000a<<pause>>\u000a\u000aI tell her that I am, all the while rubbing a bruise left by a particularly large Physics book.\u000a<<pause>>\u000a\u000aGlasses Girl: You saved me.\u000a<<pause>>\u000a\u000aShe points out. I shrug... I guess I did, but it's not like I'm a hero or anything.\u000a<<pause>>\u000a\u000aShe extends out her hand, I take it, and she helps me to get up.\u000a<<pause>>\u000a\u000aGlasses Girl: Wow... Um...\u000a<<pause>>\u000a\u000aShe doesn't know what to say.\u000a<<pause>>\u000a\u000aI suggest that we help clean up the mess, mostly to take her off the spot.\u000a<<pause>>\u000a\u000aShe agrees, and together we begin piling the books up into neat piles.\u000a<<pause>>\u000a\u000a<<set saw_bookslide = true>>\u000a\u000a<<return>>
 p55
 sg21
 Vbookslide
@@ -148,13 +148,13 @@ p56
 sg23
 g24
 ((I2017
+I4
 I3
-I7
 I22
-I15
-I43
-I1
-I66
+I16
+I34
+I0
+I93
 I0
 tp57
 (dp58
@@ -290,7 +290,7 @@ Tiddler
 p98
 (dp99
 g19
-V[img[exercise.png]]\u000a\u000aI'm out running again, when the sporty girl catches up to me.\u000a<<pause>>\u000a\u000aSporty Girl: Still at it?\u000a<<pause>>\u000a\u000aSporty Girl: Well, keep up the good work. One day you'll be as fast as me!\u000a<<pause>>\u000a\u000aSporty Girl: Well, maybe.\u000a<<pause>>\u000a\u000a\u000aToday, however, I'm not about to let this stand unchallenged.\u000a<<pause>>\u000a\u000aI break out into a run, and for the first time ever, I keep up with her.\u000a<<pause>>\u000a\u000aWe both run, neck and neck, me keeping up with her.\u000a<<pause>>\u000a\u000aFinally, she starts slowing down, and we come to a stop together.\u000a<<pause>>\u000a\u000aSporty Girl: Not bad.\u000a<<pause>>\u000a\u000aShe pauses to catch her breath.\u000a<<pause>>\u000a\u000aSporty Girl: You've been practicing, and it really shows.\u000a<<pause>>\u000a\u000aSporty Girl: You've finally become fast enough to run with me.\u000a<<pause>>\u000a\u000aI nod, accepting her praise.\u000a<<pause>>\u000a\u000aSporty Girl: We should do this more often... it's better to run with someone else, to keep the challenge up.\u000a<<pause>>\u000a\u000aI nod again.\u000a<<pause>>\u000a\u000aSporty Girl: Well, shall we go?\u000a<<pause>>\u000a\u000aI nod a third time, and we take off, running side by side.\u000a<<pause>>\u000a\u000a<<set strength = strength + 10 >>\u000a<<set saw_caughtme = true>>\u000a\u000a<<return>>
+V[img[exercise.png]]\u000a\u000aI'm out running again, when the sporty girl catches up to me.\u000a<<pause>>\u000a\u000a[img[exercise_girl.png]]\u000a\u000aSporty Girl: Still at it?\u000a<<pause>>\u000a\u000aSporty Girl: Well, keep up the good work. One day you'll be as fast as me!\u000a<<pause>>\u000a\u000aSporty Girl: Well, maybe.\u000a<<pause>>\u000a\u000a\u000aToday, however, I'm not about to let this stand unchallenged.\u000a<<pause>>\u000a\u000aI break out into a run, and for the first time ever, I keep up with her.\u000a<<pause>>\u000a\u000aWe both run, neck and neck, me keeping up with her.\u000a<<pause>>\u000a\u000aFinally, she starts slowing down, and we come to a stop together.\u000a<<pause>>\u000a\u000aSporty Girl: Not bad.\u000a<<pause>>\u000a\u000aShe pauses to catch her breath.\u000a<<pause>>\u000a\u000aSporty Girl: You've been practicing, and it really shows.\u000a<<pause>>\u000a\u000aSporty Girl: You've finally become fast enough to run with me.\u000a<<pause>>\u000a\u000aI nod, accepting her praise.\u000a<<pause>>\u000a\u000aSporty Girl: We should do this more often... it's better to run with someone else, to keep the challenge up.\u000a<<pause>>\u000a\u000aI nod again.\u000a<<pause>>\u000a\u000aSporty Girl: Well, shall we go?\u000a<<pause>>\u000a\u000aI nod a third time, and we take off, running side by side.\u000a<<pause>>\u000a\u000a<<set strength = strength + 10 >>\u000a<<set saw_caughtme = true>>\u000a\u000a<<return>>
 p100
 sg21
 Vcaughtme
@@ -298,13 +298,13 @@ p101
 sg23
 g24
 ((I2017
+I4
 I3
-I7
 I22
-I14
 I18
-I1
-I66
+I41
+I0
+I93
 I0
 tp102
 (dp103
@@ -340,7 +340,7 @@ Tiddler
 p113
 (dp114
 g19
-V[img[study.png]]\u000a\u000aI head to the library, to get some studying done.\u000a<<pause>>\u000a\u000aThe glasses girl is there, and smiles at me for a second before turning back to her book.\u000a<<pause>>\u000a\u000aI decide not to disturb her, and instead start reading my own book.\u000a<<pause>>\u000a\u000a<<set intelligence = intelligence + 10 >>\u000a\u000a<<return>>
+V[img[study.png]]\u000a\u000aI head to the library, to get some studying done.\u000a<<pause>>\u000a\u000a[img[study_girl.png]]\u000a\u000aThe glasses girl is there, and smiles at me for a second before turning back to her book.\u000a<<pause>>\u000a\u000a[img[study.png]]\u000a\u000aI decide not to disturb her, and instead start reading my own book.\u000a<<pause>>\u000a\u000a<<set intelligence = intelligence + 10 >>\u000a\u000a<<return>>
 p115
 sg21
 Vgg_smiling
@@ -348,13 +348,13 @@ p116
 sg23
 g24
 ((I2017
+I4
 I3
-I7
 I22
-I15
-I36
-I1
-I66
+I16
+I18
+I0
+I93
 I0
 tp117
 (dp118
@@ -379,7 +379,7 @@ tp124
 Rp125
 sbsa(dp126
 g12
-I01
+I00
 sg13
 (lp127
 I188
@@ -390,7 +390,7 @@ Tiddler
 p128
 (dp129
 g19
-V[img[class.png]]\u000a\u000aI run to school, and make it to my seat just as the bell signalling the start of class rings.\u000a<<pause>>\u000a\u000aTeacher: Before we start, I have an announcement to make.\u000aTeacher: We will have two new students joining us. Girls, come on in.\u000a<<pause>>\u000a\u000a[img[introduction_girls.png]]\u000a\u000aTwo girls walk in, and stand in front of the class.\u000a<<pause>>\u000a\u000aThey're twins.\u000a<<pause>>\u000a\u000aIdentical twins.\u000a<<pause>>\u000a\u000aIdentical black hair, and the same pretty face.\u000a<<pause>>\u000a\u000aDespite that, it's still fairly easy to tell them apart.\u000a<<pause>>\u000a\u000aThe one on the left is wearing glasses.\u000a<<pause>>\u000a\u000aNot too thick, but enough to let me know she probably reads alot of books.\u000a<<pause>>\u000a\u000aIf I look a little closely, I can find another difference.\u000a<<pause>>\u000a\u000aThe one on the right probably exercises a bit more.\u000a<<pause>>\u000a\u000aI can tell by the muscle tone in her legs.\u000a<<pause>>\u000a\u000aI realize that I'm staring at her legs, and quickly look up.\u000a<<pause>>\u000a\u000aSuddenly, I realize that she's been talking for all this town.\u000a<<pause>>\u000a\u000aSporty Girl: ... to this town. And we hope to be friends with all of you.\u000a<<pause>>\u000a\u000aSporty Girl: Well, that's about it. Sis, do you have anything to say?\u000a<<pause>>\u000a\u000aThe girl with glasses pauses for a second, and then quickly says:\u000a<<pause>>\u000a\u000aGlasses Girl: It's good to meet you all.\u000a<<pause>>\u000a\u000aShe stops, and goes back to not saying anything.\u000a<<pause>>\u000a\u000aTeacher: Well, if that's all, you can take your seats and we can start the class.\u000a<<pause>>\u000a\u000aThey do, and our teacher begins his lecture.\u000a<<pause>>\u000a\u000aI don't think anyone pays much attention to it, however.\u000a<<pause>>\u000a\u000a<<set saw_introduction = true>>\u000a\u000a<<return>>
+V[img[class.png]]\u000a\u000aI run to school, and make it to my seat just as the bell signalling the start of class rings.\u000a<<pause>>\u000a\u000aTeacher: Before we start, I have an announcement to make.\u000aTeacher: We will have two new students joining us. Girls, come on in.\u000a<<pause>>\u000a\u000a[img[introduction_girls.png]]\u000a\u000aTwo girls walk in, and stand in front of the class.\u000a<<pause>>\u000a\u000aThey're twins.\u000a<<pause>>\u000a\u000aIdentical twins.\u000a<<pause>>\u000a\u000aIdentical black hair, and the same pretty face.\u000a<<pause>>\u000a\u000aDespite that, it's still fairly easy to tell them apart.\u000a<<pause>>\u000a\u000aThe one on the left is wearing glasses.\u000a<<pause>>\u000a\u000aNot too thick, but enough to let me know she probably reads alot of books.\u000a<<pause>>\u000a\u000aIf I look a little closely, I can find another difference.\u000a<<pause>>\u000a\u000a[img[legs.png]]\u000a\u000aThe one on the right probably exercises a bit more.\u000a<<pause>>\u000a\u000aI can tell by the muscle tone in her legs.\u000a<<pause>>\u000a\u000a[img[introduction_girls.png]]\u000a\u000aI realize that I'm staring at her legs, and quickly look up.\u000a<<pause>>\u000a\u000aSuddenly, I realize that she's been talking for all this town.\u000a<<pause>>\u000a\u000aSporty Girl: ... to this town. And we hope to be friends with all of you.\u000a<<pause>>\u000a\u000aSporty Girl: Well, that's about it. Sis, do you have anything to say?\u000a<<pause>>\u000a\u000aThe girl with glasses pauses for a second, and then quickly says:\u000a<<pause>>\u000a\u000aGlasses Girl: It's good to meet you all.\u000a<<pause>>\u000a\u000aShe stops, and goes back to not saying anything.\u000a<<pause>>\u000a\u000aTeacher: Well, if that's all, you can take your seats and we can start the class.\u000a<<pause>>\u000a\u000a[img[class.png]]\u000a\u000aThey do, and our teacher begins his lecture.\u000a<<pause>>\u000a\u000aI don't think anyone pays much attention to it, however.\u000a<<pause>>\u000a\u000a<<set saw_introduction = true>>\u000a\u000a<<return>>
 p130
 sg21
 Vintroduction
@@ -398,13 +398,13 @@ p131
 sg23
 g24
 ((I2017
+I4
 I3
-I7
-I23
-I21
-I31
-I1
-I66
+I22
+I14
+I24
+I0
+I93
 I0
 tp132
 (dp133
@@ -490,7 +490,7 @@ Tiddler
 p158
 (dp159
 g19
-V[img[study.png]]\u000a\u000aI head to the library, to get some studying done.\u000a<<pause>>\u000a\u000aThe glasses girl is there, but she's busy reading a book.\u000a<<pause>>\u000a\u000aI decide not to disturb her, and instead start reading my own book.\u000a<<pause>>\u000a\u000aSuddenly, I feel a tap on my shoulder.\u000a<<pause>>\u000a\u000aI look up, and see the glasses girl standing right next to me.\u000a<<pause>>\u000a\u000aGlasses Girl: Excuse me, but can I borrow your pen?\u000a<<pause>>\u000a\u000aGlasses Girl: Mine ran out of ink.\u000a<<pause>>\u000a\u000aI dig through my bag, to find the pen I had stashed there.\u000a<<pause>>\u000a\u000aWhile I'm looking, I point out that she seems to come to the library alot.\u000a<<pause>>\u000a\u000aGlasses Girl: Hm... I guess you're right.\u000a<<pause>>\u000a\u000aGlasses Girl: There's so much stuff here, and I want to know about it all.\u000a<<pause>>\u000a\u000aGlasses Girl: Surely, you must feel the same way, as you're here almost as much as I am.\u000a<<pause>>\u000a\u000aI don't have the heart to tell her that I'm only here to study so that I don't fail out.\u000a<<pause>>\u000a\u000aMy hand brushes the pen, and I quickly pull it out and give it to her.\u000a<<pause>>\u000a\u000aGlasses Girl: Thank you.\u000a<<pause>>\u000a\u000aShe says, and she goes back to studying.\u000a<<pause>>\u000a\u000a<<set saw_borrow_pen = true>>\u000a\u000a<<return>>
+V[img[study.png]]\u000a\u000aI head to the library, to get some studying done.\u000a<<pause>>\u000a\u000a[img[study_girl.png]]\u000a\u000aThe glasses girl is there, but she's busy reading a book.\u000a<<pause>>\u000a\u000a[img[study.png]]\u000a\u000aI decide not to disturb her, and instead start reading my own book.\u000a<<pause>>\u000a\u000aSuddenly, I feel a tap on my shoulder.\u000a<<pause>>\u000a\u000a[img[study_girl.png]]\u000a\u000aI look up, and see the glasses girl standing right next to me.\u000a<<pause>>\u000a\u000aGlasses Girl: Excuse me, but can I borrow your pen?\u000a<<pause>>\u000a\u000aGlasses Girl: Mine ran out of ink.\u000a<<pause>>\u000a\u000aI dig through my bag, to find the pen I had stashed there.\u000a<<pause>>\u000a\u000aWhile I'm looking, I point out that she seems to come to the library alot.\u000a<<pause>>\u000a\u000aGlasses Girl: Hm... I guess you're right.\u000a<<pause>>\u000a\u000aGlasses Girl: There's so much stuff here, and I want to know about it all.\u000a<<pause>>\u000a\u000aGlasses Girl: Surely, you must feel the same way, as you're here almost as much as I am.\u000a<<pause>>\u000a\u000aI don't have the heart to tell her that I'm only here to study so that I don't fail out.\u000a<<pause>>\u000a\u000aMy hand brushes the pen, and I quickly pull it out and give it to her.\u000a<<pause>>\u000a\u000aGlasses Girl: Thank you.\u000a<<pause>>\u000a\u000aShe says, and she goes back to studying.\u000a<<pause>>\u000a\u000a<<set saw_borrow_pen = true>>\u000a\u000a<<return>>
 p160
 sg21
 Vborrow_pen
@@ -498,13 +498,13 @@ p161
 sg23
 g24
 ((I2017
+I4
 I3
-I7
 I22
 I15
-I28
-I1
-I66
+I51
+I0
+I93
 I0
 tp162
 (dp163
@@ -540,7 +540,7 @@ Tiddler
 p173
 (dp174
 g19
-V[img[exercise.png]]\u000a\u000aI'm out running again, when the sporty girl catches up to me.\u000a<<pause>>\u000a\u000aSporty Girl: Still at it?\u000a<<pause>>\u000a\u000aSporty Girl: Well, keep up the good work. One day you'll be as fast as me!\u000a<<pause>>\u000a\u000aSporty Girl: Well, maybe.\u000a<<pause>>\u000a\u000aShe pulls out past me, and disappears into the distance. One day I'll catch up to her.\u000a<<pause>>\u000a\u000a<<set strength = strength + 10 >>\u000a\u000a<<return>>
+V[img[exercise.png]]\u000a\u000aI'm out running again, when the sporty girl catches up to me.\u000a<<pause>>\u000a\u000a[img[exercise_girl.png]]\u000a\u000aSporty Girl: Still at it?\u000a<<pause>>\u000a\u000aSporty Girl: Well, keep up the good work. One day you'll be as fast as me!\u000a<<pause>>\u000a\u000aSporty Girl: Well, maybe.\u000a<<pause>>\u000a\u000a[img[exercise.png]]\u000a\u000aShe pulls out past me, and disappears into the distance. One day I'll catch up to her.\u000a<<pause>>\u000a\u000a<<set strength = strength + 10 >>\u000a\u000a<<return>>
 p175
 sg21
 Vcantcatchme
@@ -548,13 +548,13 @@ p176
 sg23
 g24
 ((I2017
+I4
 I3
-I7
 I22
-I14
-I12
-I1
-I66
+I18
+I24
+I0
+I93
 I0
 tp177
 (dp178
@@ -840,7 +840,7 @@ Tiddler
 p263
 (dp264
 g19
-V[img[exercise.png]]\u000a\u000aI decide to go out for a run, to keep myself in shape.\u000a<<pause>>\u000a\u000aAs I'm running through the town, I see a girl.\u000a<<pause>>\u000a\u000aShe's one of the twins who transferred into my class.\u000a<<pause>>\u000a\u000aShe waves, and comes over to me.\u000a<<pause>>\u000a\u000aSporty Girl: I didn't know you were a runner.\u000a<<pause>>\u000a\u000aI point out that I'm not really a runner... I just run a little bit at a time.\u000a<<pause>>\u000a\u000aI ask her if she wants to run with me for a while.\u000a<<pause>>\u000a\u000aSporty Girl: As if! You couldn't keep up with me.\u000a<<pause>>\u000a\u000aI point out that I probably can.\u000a<<pause>>\u000a\u000aSporty Girl: Well, let's see.\u000a<<pause>>\u000a\u000aWe set off running, but she quickly pulls past me.\u000a<<pause>>\u000a\u000aSporty Girl: See? Well, maybe we can try it again when you're a bit faster.\u000a<<pause>>\u000a\u000aSporty Girl: Until then, later.\u000a<<pause>>\u000a\u000aEven though I'm jogging, she pulls away as if it is nothing.\u000a<<pause>>\u000a\u000a<<set saw_catchme = true>>\u000a\u000a<<return>>
+V[img[exercise.png]]\u000a\u000aI decide to go out for a run, to keep myself in shape.\u000a<<pause>>\u000a\u000aAs I'm running through the town, I see a girl.\u000a<<pause>>\u000a\u000a[img[exercise_girl.png]]\u000a\u000aShe's one of the twins who transferred into my class.\u000a<<pause>>\u000a\u000aShe waves, and comes over to me.\u000a<<pause>>\u000a\u000aSporty Girl: I didn't know you were a runner.\u000a<<pause>>\u000a\u000aI point out that I'm not really a runner... I just run a little bit at a time.\u000a<<pause>>\u000a\u000aI ask her if she wants to run with me for a while.\u000a<<pause>>\u000a\u000aSporty Girl: As if! You couldn't keep up with me.\u000a<<pause>>\u000a\u000aI point out that I probably can.\u000a<<pause>>\u000a\u000aSporty Girl: Well, let's see.\u000a<<pause>>\u000a\u000aWe set off running, but she quickly pulls past me.\u000a<<pause>>\u000a\u000aSporty Girl: See? Well, maybe we can try it again when you're a bit faster.\u000a<<pause>>\u000a\u000aSporty Girl: Until then, later.\u000a<<pause>>\u000a\u000a[img[exercise.png]]\u000a\u000aEven though I'm jogging, she pulls away as if it is nothing.\u000a<<pause>>\u000a\u000a<<set saw_catchme = true>>\u000a\u000a<<return>>
 p265
 sg21
 Vcatchme
@@ -848,13 +848,13 @@ p266
 sg23
 g24
 ((I2017
+I4
 I3
-I7
 I22
-I14
-I3
-I1
-I66
+I18
+I4
+I0
+I93
 I0
 tp267
 (dp268
@@ -1090,7 +1090,7 @@ Tiddler
 p338
 (dp339
 g19
-V[img[exercise.png]]\u000a\u000aI start running, and meet up with the sporty girl as she passes the street in front of my house.\u000a<<pause>>\u000a\u000aI try to keep up with her, but she pulls away from me.\u000a<<pause>>\u000a\u000aWhen she's a block away, she slows down and lets me catch up.\u000a<<pause>>\u000a\u000aSporty Girl: It's your own fault... this is what you get for not practicing.\u000a<<pause>>\u000a\u000aShe's right, of course, and I redouble my efforts to try to keep up with her.\u000a<<pause>>\u000a\u000a<<set strength = strength + 10 >>\u000a\u000a<<return>>
+V[img[exercise.png]]\u000a\u000aI start running, and meet up with the sporty girl as she passes the street in front of my house.\u000a<<pause>>\u000a\u000a[img[exercise_girl.png]]\u000a\u000aI try to keep up with her, but she pulls away from me.\u000a<<pause>>\u000a\u000a[img[exercise.png]]\u000a\u000aWhen she's a block away, she slows down and lets me catch up.\u000a<<pause>>\u000a\u000a[img[exercise_girl.png]]\u000a\u000aSporty Girl: It's your own fault... this is what you get for not practicing.\u000a<<pause>>\u000a\u000aShe's right, of course, and I redouble my efforts to try to keep up with her.\u000a<<pause>>\u000a\u000a<<set strength = strength + 10 >>\u000a\u000a<<return>>
 p340
 sg21
 Vapart
@@ -1098,13 +1098,13 @@ p341
 sg23
 g24
 ((I2017
+I4
 I3
-I7
 I22
-I14
-I43
-I1
-I66
+I20
+I15
+I0
+I93
 I0
 tp342
 (dp343
@@ -1190,7 +1190,7 @@ Tiddler
 p368
 (dp369
 g19
-V[img[study.png]]\u000a\u000aI head to the library, to get some studying done.\u000a<<pause>>\u000a\u000aThe glasses girl is there, but she's busy reading a book, taking notes as she does so.\u000a<<pause>>\u000a\u000aI decide not to disturb her, and instead start reading my own book.\u000a<<pause>>\u000a\u000a<<set intelligence = intelligence + 10 >>\u000a\u000a<<return>>
+V[img[study.png]]\u000a\u000aI head to the library, to get some studying done.\u000a<<pause>>\u000a\u000a[img[study_girl.png]]\u000a\u000aThe glasses girl is there, but she's busy reading a book, taking notes as she does so.\u000a<<pause>>\u000a\u000a[img[study.png]]\u000a\u000aI decide not to disturb her, and instead start reading my own book.\u000a<<pause>>\u000a\u000a<<set intelligence = intelligence + 10 >>\u000a\u000a<<return>>
 p370
 sg21
 Vgg_studying
@@ -1198,13 +1198,13 @@ p371
 sg23
 g24
 ((I2017
+I4
 I3
-I7
 I22
 I15
-I21
-I1
-I66
+I25
+I0
+I93
 I0
 tp372
 (dp373
@@ -1290,7 +1290,7 @@ Tiddler
 p398
 (dp399
 g19
-V[img[exercise.png]]\u000a\u000aI start running, and meet up with the sporty girl as she passes the street in front of my house.\u000a<<pause>>\u000a\u000aShe's still better than me... she's been running for over a mile before reaching this point.\u000a<<pause>>\u000a\u000aStill, I can keep up with her for the rest of the run. And that's not bad.\u000a<<pause>>\u000a\u000a<<set strength = strength + 10 >>\u000a\u000a<<return>>
+V[img[exercise.png]]\u000a\u000aI start running, and meet up with the sporty girl as she passes the street in front of my house.\u000a<<pause>>\u000a\u000a[img[exercise_girl.png]]\u000a\u000aShe's still better than me... she's been running for over a mile before reaching this point.\u000a<<pause>>\u000a\u000aStill, I can keep up with her for the rest of the run. And that's not bad.\u000a<<pause>>\u000a\u000a<<set strength = strength + 10 >>\u000a\u000a<<return>>
 p400
 sg21
 Vtogether
@@ -1298,13 +1298,13 @@ p401
 sg23
 g24
 ((I2017
+I4
 I3
-I7
 I22
-I14
-I29
-I1
-I66
+I19
+I9
+I0
+I93
 I0
 tp402
 (dp403
