@@ -23,7 +23,7 @@
 ;==============================================================
 ; SDSC tag and SMS rom header
 ;==============================================================
-.sdsctag 0.02,"S.A.M. - Simple Adventure Maker - Dating simulator","Version 0.02","Haroldo O. Pinheiro"
+.sdsctag 1.00,"S.A.M. - Simple Adventure Maker - Dating simulator","Version 1.00","Haroldo O. Pinheiro"
 
 ;==============================================================
 ; S.A.M. Includes
