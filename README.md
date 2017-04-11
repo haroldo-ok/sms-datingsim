@@ -1,4 +1,4 @@
-A very simple dating sim for the Sega Master System.
+A very simple dating sim for the Sega Master System, made with [twee2sam](https://github.com/haroldo-ok/twee2sam).
 
 # Credits
 
